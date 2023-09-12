@@ -1,8 +1,9 @@
 import React from 'react'
+import '../css/general.css'
 
 function Section02() {
   return (
-    <div>Section02</div>
+    <div className='seccion2'>Section02</div>
   )
 }
 

@@ -1,3 +1,38 @@
+:root {
+    /* CSS HEX */
+--silver: #abababff;
+--eerie-black: #1c2020ff;
+--charcoal: #2e4053ff;
+--lapis-lazuli: #3f6085ff;
+--white: #fefefeff;
+}
+
+
+
 footer {
+    margin-top: auto;
     background-color: black;
+}
+
+
+.seccion1, .seccion2, .seccion3, .seccion4 {
+    height: 100vh;
+}
+
+
+.seccion1 {
+    background-color: aliceblue;
+}
+
+
+.seccion2 {
+    background-color: antiquewhite;
+}
+
+.seccion3 {
+    background-color: aqua;
+}
+
+.seccion4 {
+    background-color: bisque;
 }

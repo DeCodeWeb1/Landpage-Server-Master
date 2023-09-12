@@ -1,8 +1,13 @@
 import React from 'react'
+import '../css/general.css'
+import Footer from '../footer/Footer'
 
 function Section03() {
   return (
-    <div>Section03</div>
+    <div className='seccion3'>
+      Section03
+      <Footer />
+    </div>
   )
 }
 
