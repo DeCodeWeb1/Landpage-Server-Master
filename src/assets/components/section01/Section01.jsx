@@ -7,7 +7,7 @@ function Section01() {
     <div className='seccion1'>
       <Navv/>
       
-     <p></p>
+     <p>Quienes somos. fotos.</p>
       
       </div>
   )

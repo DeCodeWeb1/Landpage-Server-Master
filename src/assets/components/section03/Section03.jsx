@@ -5,7 +5,10 @@ import Footer from '../footer/Footer'
 function Section03() {
   return (
     <div className='seccion3'>
-      Section03
+      <p>contacto. numero de telefono, direccion. tewefonos email.formularuio??? </p>
+
+
+
       <Footer />
     </div>
   )
