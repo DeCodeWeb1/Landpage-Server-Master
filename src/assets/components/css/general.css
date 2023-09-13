@@ -1,10 +1,10 @@
 :root {
     /* CSS HEX */
---silver: #abababff;
---eerie-black: #1c2020ff;
---charcoal: #2e4053ff;
---lapis-lazuli: #3f6085ff;
---white: #fefefeff;
+    --silver: #abababff;
+    --eerie-black: #1c2020ff;
+    --charcoal: #2e4053ff;
+    --lapis-lazuli: #3f6085ff;
+    --white: #fefefeff;
 }
 
 
@@ -15,7 +15,10 @@ footer {
 }
 
 
-.seccion1, .seccion2, .seccion3, .seccion4 {
+.seccion1,
+.seccion2,
+.seccion3,
+.seccion4 {
     height: 100vh;
 }
 
@@ -29,10 +32,47 @@ footer {
     background-color: antiquewhite;
 }
 
+/* -------------------------------Seccion 3-------------------------------------- */
 .seccion3 {
-    background-color: aqua;
+    background-color: rgb(239, 244, 249);
+    height: 400px;
+    width: 1000px;
+    place-items: center;
+    margin: auto;
 }
 
-.seccion4 {
-    background-color: bisque;
+.contacto {
+    text-align: center;
+    color: rgb(9, 9, 9);
+}
+
+.contenedor {
+    background-color: #3f6085ff;
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+
+}
+
+.iconos1 {
+
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+
+}
+
+.iconos2 {
+    height: 100px;
+    color: #fefefeff;
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.phone,
+.mail {
+    height: 30px;
 }
