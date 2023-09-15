@@ -34,22 +34,20 @@ footer {
 
 /* -------------------------------Seccion 3-------------------------------------- */
 .seccion3 {
-    background-color: rgb(239, 244, 249);
-    height: 400px;
-    width: 1000px;
+    background-color: rgb(19, 83, 147);
+    height: auto;
     place-items: center;
     margin: auto;
 }
 
 .contacto {
     text-align: center;
-    color: rgb(9, 9, 9);
+    color: rgb(253, 248, 248);
 }
 
 .contenedor {
     background-color: #3f6085ff;
-    height: 300px;
-    width: 1000px;
+    height: auto;
     display: flex;
     align-items: center;
 
@@ -75,4 +73,8 @@ footer {
 .phone,
 .mail {
     height: 30px;
+}
+
+.formulario {
+    margin-top: 50px;
 }
