@@ -1,3 +1,6 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
 :root {
     /* CSS HEX */
     --silver: #abababff;
@@ -20,61 +23,67 @@ footer {
 .seccion3,
 .seccion4 {
     height: 100vh;
-}
+
+    .seccion1,
+    .seccion2,
+    .seccion3,
+    .seccion4 {
+        min-height: 100vh;
+    }
 
 
-.seccion1 {
-    background-color: aliceblue;
-}
+    .seccion1 {
+        background-color: whitesmoke;
+    }
 
 
-.seccion2 {
-    background-color: antiquewhite;
-}
+    .seccion2 {
+        background-color: antiquewhite;
+    }
 
-/* -------------------------------Seccion 3-------------------------------------- */
-.seccion3 {
-    background-color: rgb(19, 83, 147);
-    height: auto;
-    place-items: center;
-    margin: auto;
-}
+    /* -------------------------------Seccion 3-------------------------------------- */
+    .seccion3 {
+        background-color: rgb(19, 83, 147);
+        height: auto;
+        place-items: center;
+        margin: auto;
+    }
 
-.contacto {
-    text-align: center;
-    color: rgb(253, 248, 248);
-}
+    .contacto {
+        text-align: center;
+        color: rgb(253, 248, 248);
+    }
 
-.contenedor {
-    background-color: #3f6085ff;
-    height: auto;
-    display: flex;
-    align-items: center;
+    .contenedor {
+        background-color: #3f6085ff;
+        height: auto;
+        display: flex;
+        align-items: center;
 
-}
+    }
 
-.iconos1 {
+    .iconos1 {
 
-    color: aliceblue;
-    text-align: center;
-    align-items: center;
-    margin: 100px;
+        color: aliceblue;
+        text-align: center;
+        align-items: center;
+        margin: 100px;
 
-}
+    }
 
-.iconos2 {
-    height: 100px;
-    color: #fefefeff;
-    text-align: center;
-    align-items: center;
-    margin: 100px;
-}
+    .iconos2 {
+        height: 100px;
+        color: #fefefeff;
+        text-align: center;
+        align-items: center;
+        margin: 100px;
+    }
 
-.phone,
-.mail {
-    height: 30px;
-}
+    .phone,
+    .mail {
+        height: 30px;
+    }
 
-.formulario {
-    margin-top: 50px;
-}
+    .formulario {
+        margin-top: 50px;
+    }
