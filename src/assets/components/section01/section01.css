@@ -9,14 +9,14 @@
 
 .contenedor-main{
     height: 100vh;
-    background-color: #3F6085;
+    background-color: var(--color-cuarto);
 }
 
 .contenedor-principal{
     margin-right: 5%;
     margin-left: 5%;
     height: 100%;
-	background-color: #2E4053;
+	background-color: var(--color-terciario);
 }
 
 .contenedor-texto{

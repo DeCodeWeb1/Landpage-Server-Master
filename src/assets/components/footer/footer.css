@@ -1,0 +1,27 @@
+:root {
+	--color-primario: #1C2020;
+	--color-secundario: #ABABAB;
+	--color-terciario: #2E4053;
+	--color-cuarto: #3F6085;
+	--color-blanco: #FEFEFE;
+	--font-roboto:roboto;
+}
+
+.footer{
+    color: var(--color-blanco);
+    background-color: var(--color-terciario);
+    height: 15vh;
+}
+
+.logo-server{
+    width: 10%;
+}
+
+.text-footer{
+    font-family: var(--font-roboto);
+}
+
+.phone{
+    width: 20%;
+}
+
