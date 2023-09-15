@@ -8,7 +8,7 @@ import imagenServer from '../../img/img-server-master.jpg'
 function Section01() {
   return (
     <>
-      <Navv />
+
     <div className="contenedor-main">
       <div className="contenedor-principal border border-5 d-flex flex-column align-items-center">
         <h1 className="titulo-principal fs-1 mt-2">Server Master</h1>
