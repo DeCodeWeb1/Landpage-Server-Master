@@ -1,4 +1,5 @@
 import React from 'react';
+import './section02.css'
 import '../css/general.css'
 
 
