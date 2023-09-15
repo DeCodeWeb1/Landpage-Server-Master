@@ -3,11 +3,11 @@
 
 :root {
     /* CSS HEX */
---silver: #abababff;
---eerie-black: #1c2020ff;
---charcoal: #2e4053ff;
---lapis-lazuli: #3f6085ff;
---white: #fefefeff;
+    --silver: #abababff;
+    --eerie-black: #1c2020ff;
+    --charcoal: #2e4053ff;
+    --lapis-lazuli: #3f6085ff;
+    --white: #fefefeff;
 }
 
 
@@ -18,48 +18,73 @@ footer {
 }
 
 
-.seccion1, .seccion2, .seccion3, .seccion4 {
-    min-height: 100vh;
-}
+.seccion1,
+.seccion2,
+.seccion3,
+.seccion4 {
+    height: 100vh;
+
+    .seccion1,
+    .seccion2,
+    .seccion3,
+    .seccion4 {
+        min-height: 100vh;
+    }
 
 
-.seccion1 {
-    background-color: whitesmoke;
-}
+    .seccion1 {
+        background-color: whitesmoke;
+    }
 
 
-.seccion2 {
-    background-color: var(--lapis-lazuli);
-    text-align: justify;
-}
+    .seccion2 {
+        background-color: antiquewhite;
+    }
 
-.seccion2 img {
-    object-fit: cover;
-    max-height: 18rem;
-}
+    /* -------------------------------Seccion 3-------------------------------------- */
+    .seccion3 {
+        background-color: rgb(19, 83, 147);
+        height: auto;
+        place-items: center;
+        margin: auto;
+    }
 
-/* .seccion2 ul {
-    column-count: 2;
-} */
+    .contacto {
+        text-align: center;
+        color: rgb(253, 248, 248);
+    }
 
-.seccion3 {
-    background-color: var(--charcoal);
-}
+    .contenedor {
+        background-color: #3f6085ff;
+        height: auto;
+        display: flex;
+        align-items: center;
 
+    }
 
-.servicios {
-    list-style-type: none;
-}
+    .iconos1 {
 
-.servicios li {
-    
-        padding-left: 3rem;
-        background-image: url('../../img/arrow.gif');
-        background-position: 0 0;
-        background-size: 2rem;
-        background-repeat: no-repeat;
-}
+        color: aliceblue;
+        text-align: center;
+        align-items: center;
+        margin: 100px;
 
+    }
+
+    .iconos2 {
+        height: 100px;
+        color: #fefefeff;
+        text-align: center;
+        align-items: center;
+        margin: 100px;
+    }
+
+    .phone,
+    .mail {
+        height: 30px;
+    }
+
+ feature/section2
 
 
 
@@ -97,3 +122,8 @@ footer {
   height: 100vh;
   place-items: center;
 } */
+
+    .formulario {
+        margin-top: 50px;
+    }
+
