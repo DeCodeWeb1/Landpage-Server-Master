@@ -51,7 +51,7 @@ footer {
 
     .contacto {
         text-align: center;
-        color: rgb(253, 248, 248);
+        color: rgb(20, 14, 14);
     }
 
     .contenedor {
@@ -87,3 +87,4 @@ footer {
     .formulario {
         margin-top: 50px;
     }
+}
