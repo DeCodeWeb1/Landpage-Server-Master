@@ -1,6 +1,14 @@
 import React from 'react'
 import '../css/general.css'
-import Footer from '../footer/Footer'
+
+function Section03() {
+  return (
+    <div className='seccion3' id='seccionTres'>
+      <p>contacto. numero de telefono, direccion. tewefonos email.formularuio??? </p>
+
+
+
+ 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

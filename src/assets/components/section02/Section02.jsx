@@ -7,7 +7,7 @@ import '../css/general.css'
 function Section02() {
   
   return (
-    <div className='seccion2 container-fluid p-4 text-white'>
+    <div className='seccion2 container-fluid p-4 text-white' id='seccionDos'>
       <div className="container-img row row-cols-lg-3 row-cols-1 justify-content-center gap-5">
         <figure className='col col-lg-3'>
           <img className='img-fluid border w-100' src="src\assets\img\mantenimiento-asistencia.jpg" alt="" />
