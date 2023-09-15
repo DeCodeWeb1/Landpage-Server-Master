@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/general.css'
-import Footer from '../footer/Footer'
+import './Section03.css' 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

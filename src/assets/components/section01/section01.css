@@ -1,0 +1,45 @@
+:root {
+	--color-primario: #1C2020;
+	--color-secundario: #ABABAB;
+	--color-terciario: #2E4053;
+	--color-cuarto: #3F6085;
+	--color-blanco: #FEFEFE;
+	--font-roboto:roboto;
+}
+
+.contenedor-main{
+    height: 100vh;
+    background-color: #3F6085;
+}
+
+.contenedor-principal{
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 100%;
+	background-color: #2E4053;
+}
+
+.contenedor-texto{
+	width: 50%;
+}
+
+.titulo-principal{
+	color: var(--color-secundario);
+	font-family: var(--font-roboto);
+}
+
+.text-acerca{
+	font-size: larger;
+	color: #FEFEFE;
+	font-family: var(--font-roboto);
+}
+
+.contenedor-img{
+    background-color: var(--color-cuarto);
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+  
