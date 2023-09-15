@@ -1,3 +1,6 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
 :root {
     /* CSS HEX */
 --silver: #abababff;
@@ -16,23 +19,44 @@ footer {
 
 
 .seccion1, .seccion2, .seccion3, .seccion4 {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
 .seccion1 {
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 
 .seccion2 {
-    background-color: antiquewhite;
+    background-color: var(--lapis-lazuli);
+    text-align: justify;
 }
+
+.seccion2 img {
+    object-fit: cover;
+    max-height: 18rem;
+}
+
+/* .seccion2 ul {
+    column-count: 2;
+} */
 
 .seccion3 {
-    background-color: aqua;
+    background-color: var(--charcoal);
 }
 
-.seccion4 {
-    background-color: bisque;
+
+.servicios {
+    list-style-type: none;
 }
+
+.servicios li {
+    
+        padding-left: 3rem;
+        background-image: url('../../img/arrow.gif');
+        background-position: 0 0;
+        background-size: 2rem;
+        background-repeat: no-repeat;
+}
+
