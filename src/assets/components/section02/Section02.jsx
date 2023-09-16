@@ -20,15 +20,15 @@ function Section02() {
   }
 
   const items = [
-    <div className="d-flex col-12 border  bg-dark mx-auto">
+    <div className="d-flex col-12 text-dark border  mx-auto">
       <p className='fs-3 my-auto p-4'>Detrás de nuestros técnicos hay un potente equipo de profesionales para reparar el componente averiado. Taller propio con bancos de pruebas. Para saber más, consulta la sección de Reparaciones hidráulicas</p>
       <img className='img w-lg-75' src="src\assets\img\mantenimiento-asistencia.jpg" onDragStart={handleDragStart} role="presentation" />
     </div>,
-    <div className="div d-flex col-12 border border-light border-5  bg-dark mx-auto">
+    <div className="div d-flex col-12 text-dark border  mx-auto">
       <p className='fs-3 my-auto p-4'>Si el componente no es reparable, podemos suministrar rápidamente el repuesto para que puedas volver a producir cuanto antes. Echa un vistazo a nuestra sección de Materiales y repuestos y descubre nuestro catálogo</p>
       <img className='img w-75' src="src\assets\img\maquina_azul.png" onDragStart={handleDragStart} role="presentation" />
     </div>,
-    <div className="div d-flex col-12 border border-light border-5  bg-dark mx-auto">
+    <div className="div d-flex col-12 text-dark border  mx-auto">
       <p className='fs-3 my-auto p-4'>Y ahora que tu máquina ya funciona, seguro que quieres que no vuelva a pasar. Nuestro departamento de ingeniería te ayudará a mejorar tus máquinas o los procesos de mantenimiento hidráulico para que tus equipos sólo paren cuando tú quieres.</p>
       <img className='img w-75' src="src\assets\img\ZE1_1461.jpg" onDragStart={handleDragStart} role="presentation" />
     </div>
@@ -38,7 +38,7 @@ function Section02() {
   return (
     <div className='seccion2 container-fluid p-4 text-white' id='seccionDos'>
       <div className="container-img">
-        <AliceCarousel mouseTracking items={items} responsive={responsive} autoPlay infinite autoPlayInterval={9000} disableButtonsControls animationDuration={600} />
+        <AliceCarousel mouseTracking items={items} animationType='fadeout' keyboardNavigation responsive={responsive} autoPlay infinite autoPlayInterval={9000} disableButtonsControls animationDuration={600} />
       </div>
 
 
