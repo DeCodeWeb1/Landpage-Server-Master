@@ -8,7 +8,7 @@ function Navv() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary sticky-top py-3 shadow">
       <Container fluid>
-        <img alt="logo" src="src\assets\img\logo transparente.png" height="50" className="d-inline-block align-top" />
+        <Nav.Link href="#seccionUno"><img alt="logo" src="src\assets\img\logo transparente.png" height="50" className="d-inline-block align-top" /></Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ps-4 fs-5">
