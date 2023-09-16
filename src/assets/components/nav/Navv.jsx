@@ -6,7 +6,7 @@ import '../css/general.css'
 
 function Navv() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary sticky-top py-4 shadow">
+    <Navbar expand="lg" className="bg-body-tertiary sticky-top py-3 shadow">
       <Container fluid>
         <img alt="logo" src="src\assets\img\logo transparente.png" height="50" className="d-inline-block align-top" />
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
