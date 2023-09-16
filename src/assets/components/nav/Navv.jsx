@@ -13,7 +13,7 @@ function Navv() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ps-4 fs-5">
             <Nav.Link className='linc me-3' href="#seccionUno">Inicio</Nav.Link>
-            <Nav.Link className='linc me-3' href="#seccionDos">Que hacemos</Nav.Link>
+            <Nav.Link className='linc me-3' href="#seccionDos">Nosotros</Nav.Link>
             <Nav.Link className='linc me-3' href="#seccionTres">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
