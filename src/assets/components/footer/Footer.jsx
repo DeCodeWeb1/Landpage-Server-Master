@@ -6,15 +6,13 @@ import logoSM from '../../img/logo transparente.png'
 
 function Footer() {
   return (
-    <footer className='footer'>
-      <div className='contenedor-footer d-flex align-items-center justify-content-around pt-4'>
+    <footer className='footer d-flex align-items-center justify-content-around pt-4'>
         <img src={logoSM} alt="logo server master" className='logo-server' />
         <p className='text-footer'>Todos los derechos reservados</p>
         <div className='d-flex gap-2'>
-          <FontAwesomeIcon icon={faPhone} className='phone pt-3' />
+          <FontAwesomeIcon icon={faPhone} className='phone' />
           <p lassName='text-footer mb-0'>381-5906929</p>
         </div>
-      </div>
     </footer>
   )
 }
