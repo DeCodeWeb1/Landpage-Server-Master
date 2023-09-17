@@ -19,7 +19,6 @@
 
 
 .servicios {
-    column-count: 2;
     margin-top: 4rem;
     padding-left: 5rem;
 }
@@ -27,3 +26,14 @@
 /* p {
     text-align: justify;
 } */
+
+
+.container-inf {
+margin-top: 4rem;
+background: rgb(255,255,255);
+background: linear-gradient(146deg, rgba(255,255,255,1) 24%, rgba(63,96,133,1) 83%);
+}
+
+.container-img img {
+    object-fit: cover;
+}

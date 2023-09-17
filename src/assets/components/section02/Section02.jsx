@@ -51,7 +51,7 @@ function Section02() {
 
 
   return (
-    <div className='seccion2 container-fluid text-white' id='seccionDos'>
+    <div className='seccion2 container-fluid' id='seccionDos'>
 
       <div className="container-img">
         <AliceCarousel
@@ -66,20 +66,23 @@ function Section02() {
           animationDuration={600} />
       </div>
 
+      <div className="container-inf row mx-auto d-flex justify-content-evenly mb-4 p-4">
+        <div className='col-lg-6 col-12 '>
+          <h2 className=' mt-4 ms-4'>Que trabajos Hacemos?</h2>
+          <ul className='servicios fs-5'>
+            <li>Programación de PLC, HMI, SACADA</li>
+            <li>Servmotores, variadoresde velocidad</li>
+            <li>Diseños de sistemas de control con planos de paneles.</li>
+            <li>Planos de proceso e instrumentacion (P&ID).</li>
+            <li>Planos de I/O de campo y de panel, esquemas electricos de panel.</li>
+            <li>Planos de conexión de red.</li>
+            <li>Actualización de red.</li>
+            <li>Actalización tecnológica de equipos productivos (retrofitting).</li>
+            <li>Reparacion de placas electrónicas.</li>
+          </ul>
+        </div>
 
-      <div className="container-inf container">
-        <h2 className='text-center my-4'>Que trabajos Hacemos?</h2>
-        <ul className='gap-4 auto-column servicios fs-5'>
-          <li>Programación de PLC, HMI, SACADA</li>
-          <li>Servmotores, variadoresde velocidad</li>
-          <li>Diseños de sistemas de control con planos de paneles.</li>
-          <li>Planos de proceso e instrumentacion (P&ID).</li>
-          <li>Planos de I/O de campo y de panel, esquemas electricos de panel.</li>
-          <li>Planos de conexión de red.</li>
-          <li>Actualización de red.</li>
-          <li>Actalización tecnológica de equipos productivos (retrofitting).</li>
-          <li>Reparacion de placas electrónicas.</li>
-        </ul>
+        <img className='img-fluid col-lg-3 col-8 ' src="src\assets\img\mantenimiento.png" alt="" />
       </div>
     </div>
   )
