@@ -20,25 +20,50 @@ function Section02() {
   }
 
   const items = [
-    <div className="d-flex col-12 text-dark border  mx-auto">
-      <p className='fs-3 my-auto p-4'>Detrás de nuestros técnicos hay un potente equipo de profesionales para reparar el componente averiado. Taller propio con bancos de pruebas. Para saber más, consulta la sección de Reparaciones hidráulicas</p>
-      <img className='img w-lg-75' src="src\assets\img\mantenimiento-asistencia.jpg" onDragStart={handleDragStart} role="presentation" />
+    <div className="row text-dark border col-lg-10 mx-auto">
+
+      <img className='img-fluid col-lg-8' src="src\assets\img\mantenimiento-asistencia.jpg" onDragStart={handleDragStart} role="presentation" />
+      <div className='col-lg-4 mt-1 my-lg-auto text-center'>
+        <p className='h1 m-0 mt-2'>****</p>
+        <p className='fs-3'>Detrás de nuestros técnicos hay un potente equipo de profesionales para reparar el componente averiado. Taller propio con bancos de pruebas. Para saber más, consulta la sección de Reparaciones hidráulicas</p>
+        <p className='h1 m-0'>****</p>
+      </div>
     </div>,
-    <div className="div d-flex col-12 text-dark border  mx-auto">
-      <p className='fs-3 my-auto p-4'>Si el componente no es reparable, podemos suministrar rápidamente el repuesto para que puedas volver a producir cuanto antes. Echa un vistazo a nuestra sección de Materiales y repuestos y descubre nuestro catálogo</p>
-      <img className='img w-75' src="src\assets\img\maquina_azul.png" onDragStart={handleDragStart} role="presentation" />
+    <div className="row text-dark border  col-lg-10 mx-auto">
+
+      <img className='img-fluid col-lg-8' src="src\assets\img\maquina_azul.png" onDragStart={handleDragStart} role="presentation" />
+      <div className='col-lg-4 mt-1 my-lg-auto text-center'>
+        <p className='h1 text-center m-0 mt-2'>****</p>
+        <p className='fs-3 '>Si el componente no es reparable, podemos suministrar rápidamente el repuesto para que puedas volver a producir cuanto antes. Echa un vistazo a nuestra sección de Materiales y repuestos y descubre nuestro catálogo</p>
+        <p className='h1 text-center m-0'>****</p>
+      </div>
     </div>,
-    <div className="div d-flex col-12 text-dark border  mx-auto">
-      <p className='fs-3 my-auto p-4'>Y ahora que tu máquina ya funciona, seguro que quieres que no vuelva a pasar. Nuestro departamento de ingeniería te ayudará a mejorar tus máquinas o los procesos de mantenimiento hidráulico para que tus equipos sólo paren cuando tú quieres.</p>
-      <img className='img w-75' src="src\assets\img\ZE1_1461.jpg" onDragStart={handleDragStart} role="presentation" />
+    <div className="row  text-dark border col-lg-10 mx-auto">
+
+      <img className='img-fluid col-lg-8' src="src\assets\img\ZE1_1461.jpg" onDragStart={handleDragStart} role="presentation" />
+      <div className='col-lg-4 mt-1 my-lg-auto text-center'>
+        <p className='h1 text-center m-0 mt-2'>****</p>
+        <p className='fs-3 '>Y ahora que tu máquina ya funciona, seguro que quieres que no vuelva a pasar. Nuestro departamento de ingeniería te ayudará a mejorar tus máquinas o los procesos de mantenimiento hidráulico para que tus equipos sólo paren cuando tú quieres.</p>
+        <p className='h1 text-center m-0'>****</p>
+      </div>
     </div>
   ];
 
 
   return (
-    <div className='seccion2 container-fluid p-4 text-white' id='seccionDos'>
+    <div className='seccion2 container-fluid text-white' id='seccionDos'>
+
       <div className="container-img">
-        <AliceCarousel mouseTracking items={items} animationType='fadeout' keyboardNavigation responsive={responsive} autoPlay infinite autoPlayInterval={9000} disableButtonsControls animationDuration={600} />
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          keyboardNavigation
+          responsive={responsive}
+          autoPlay
+          infinite
+          autoPlayInterval={9000}
+          disableButtonsControls
+          animationDuration={600} />
       </div>
 
 
