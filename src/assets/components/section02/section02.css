@@ -1,0 +1,39 @@
+
+
+:root {
+    /* CSS HEX */
+    --silver: #abababff;
+    --eerie-black: #1c2020ff;
+    --charcoal: #2e4053ff;
+    --lapis-lazuli: #3f6085ff;
+    --white: #fefefeff;
+}
+
+
+.seccion2 {
+    min-height: 100vh;
+    background-color: sil ;
+    padding-top: 8rem;
+
+}
+
+
+.servicios {
+    margin-top: 4rem;
+    padding-left: 5rem;
+}
+
+/* p {
+    text-align: justify;
+} */
+
+
+.container-inf {
+margin-top: 4rem;
+background: rgb(255,255,255);
+background: linear-gradient(146deg, rgba(255,255,255,1) 24%, rgba(63,96,133,1) 83%);
+}
+
+.container-img img {
+    object-fit: cover;
+}

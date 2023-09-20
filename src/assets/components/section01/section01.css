@@ -1,0 +1,64 @@
+:root {
+	--color-primario: #1C2020;
+	--color-secundario: #ABABAB;
+	--color-terciario: #2E4053;
+	--color-cuarto: #3F6085;
+	--color-blanco: #FEFEFE;
+	--font-roboto:roboto;
+}
+
+ .contenedor-main{
+    height: 100vh;
+} 
+
+.contenedor-principal{
+    height: 100%;
+	background-image: url(../../img/img-mantenimiento.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.contenedor-texto{
+	width: 35%;
+}
+
+.server{ 
+	color: brown;
+}
+
+
+.titulo-principal{
+	font-weight: bolder;
+	padding-left: 10% !important;
+	color: var(--color-terciario);
+	font-family: var(--font-roboto);
+}
+
+.text-acerca{
+	padding-left: 20% !important;
+	font-size: larger;
+	color: var(--color-terciario);
+	font-family: var(--font-roboto);
+}
+
+/* MEDIA  QUERIESS PARA CELULAR */
+
+@media only screen and (max-width: 500px) {
+	.contenedor-texto{
+		width: 60%;
+	}
+	.titulo-principal{
+		font-weight: bolder;
+		padding-left: 5% !important;
+		color: var(--color-terciario);
+		font-family: var(--font-roboto);
+	}
+	
+	.text-acerca{
+		padding-left: 5% !important;
+		font-size: larger;
+		color: var(--color-primario);
+		font-family: var(--font-roboto);
+	}
+}

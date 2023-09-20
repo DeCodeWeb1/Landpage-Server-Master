@@ -1,0 +1,15 @@
+:root {
+    /* CSS HEX */
+    --silver: #abababff;
+    --eerie-black: #1c2020ff;
+    --charcoal: #2e4053ff;
+    --lapis-lazuli: #3f6085ff;
+    --white: #fefefeff;
+}
+
+
+
+.seccion3 {
+    background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
+    width: 800px;
+}

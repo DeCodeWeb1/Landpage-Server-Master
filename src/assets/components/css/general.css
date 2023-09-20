@@ -1,0 +1,18 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
+:root {
+    /* CSS HEX */
+    --silver: #abababff;
+    --eerie-black: #1c2020ff;
+    --charcoal: #2e4053ff;
+    --lapis-lazuli: #3f6085ff;
+    --white: #fefefeff;
+}
+
+
+
+footer {
+    margin-top: auto;
+    background-color: black;
+}
