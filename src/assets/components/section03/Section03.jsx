@@ -1,29 +1,38 @@
 import React from 'react'
 import '../css/general.css'
 import './Section03.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
+
+
 function Section03() {
   return (
-    <div className='seccion3'>
-      <h2 className='contacto'>Contacto</h2>
-      <div className='contenedor'>
-        <Container>
-          <Row>
-            <Col className='iconos1'>
-              <FontAwesomeIcon icon={faPhone} className='phone' />
-              <h4>381-5906929</h4>
-            </Col>
-            <Col className='iconos2'>
-              <FontAwesomeIcon icon={faEnvelope} className='mail' />
-              <h4>servermasterssas@gmail.com</h4>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+    <div className='seccion3 container-inf row mx-auto d-flex justify-content-evenly
+    text-aling-center  mb-4 p-4' id='contactUs'>
+      <Form className='formulario'>
+        <Form.Label>Nombre</Form.Label>
+        <Form.Control type="text" placeholder="Nombre" />
+
+        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" placeholder="nombre@ejemplo.com" />
+        </Form.Group>
+
+        <Form.Label>Asunto</Form.Label>
+        <Form.Control type="text" placeholder="Asunto" />
+
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label></Form.Label>
+          <Form.Control as="textarea" rows={3} placeholder='Escriba su mensaje' />
+        </Form.Group>
+
+        <Form.Group controlId="formFile" className="mb-3">
+          <Form.Control type="file" />
+        </Form.Group>
+        <Button variant="primary">Enviar</Button>{' '}
+
+      </Form>
     </div>
   )
 }
