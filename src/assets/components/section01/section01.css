@@ -30,7 +30,14 @@
 
 .titulo-principal{
 	font-weight: bolder;
-	padding-left: 10% !important;
+	padding-left: 7.5% !important;
+	color: var(--color-terciario);
+	font-family: var(--font-roboto);
+}
+
+.subtitulo-principal{
+	font-weight: bolder;
+	padding-left: 5% !important;
 	color: var(--color-terciario);
 	font-family: var(--font-roboto);
 }
@@ -45,20 +52,25 @@
 /* MEDIA  QUERIESS PARA CELULAR */
 
 @media only screen and (max-width: 500px) {
+	.contenedor-principal{
+		padding-top: 30%;
+		justify-content: start !important;
+		align-items: center !important;
+	}
 	.contenedor-texto{
-		width: 60%;
+		width: 100%;
 	}
 	.titulo-principal{
 		font-weight: bolder;
-		padding-left: 5% !important;
 		color: var(--color-terciario);
 		font-family: var(--font-roboto);
+
 	}
 	
 	.text-acerca{
-		padding-left: 5% !important;
+		padding-left: 2% !important;
 		font-size: larger;
-		color: var(--color-primario);
+		color: var(--color-terciario);
 		font-family: var(--font-roboto);
 	}
 }
