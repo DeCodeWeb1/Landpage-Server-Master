@@ -1,4 +1,3 @@
-
 :root {
     /* CSS HEX */
     --silver: #abababff;
@@ -11,49 +10,6 @@
 
 
 .seccion3 {
-    background-color: rgb(19, 83, 147);
-    min-height: 100vh;
-    place-items: center;
-    margin: auto;
-}
-
-.contacto {
-    text-align: center;
-    color: rgb(253, 248, 248);
-}
-
-.contenedor {
-    background-color: #3f6085ff;
-    height: auto;
-    display: flex;
-    align-items: center;
-
-}
-
-.iconos1 {
-
-    color: aliceblue;
-    text-align: center;
-    align-items: center;
-    margin: 100px;
-
-}
-
-.iconos2 {
-    height: 100px;
-    color: #fefefeff;
-    text-align: center;
-    align-items: center;
-    margin: 100px;
-}
-
-.phone,
-.mail {
-    height: 30px;
-}
-
-
-
-.formulario {
-    margin-top: 50px;
+    background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
+    width: 800px;
 }
