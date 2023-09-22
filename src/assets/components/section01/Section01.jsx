@@ -7,7 +7,7 @@ import imagenServer from '../../img/img-server-master.jpg'
 function Section01() {
 	return (
 		<>
-			<div className="contenedor-main">
+			<div className="contenedor-main" id="home">
 				<div className="contenedor-principal d-flex flex-column align-items-start justify-content-center">
 					<h1 className="titulo-principal fs-1 mb-1"><span className='server'>Serve </span> Master S.A.S</h1>
 					<h2 className="subtitulo-principal fs-4 mb-1">Servicios de mantenimiento industrial</h2>
