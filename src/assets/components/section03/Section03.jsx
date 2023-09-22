@@ -10,6 +10,7 @@ function Section03() {
   return (
     <div className='seccion3 container-inf row mx-auto d-flex justify-content-evenly
     text-aling-center  mb-4 p-4' id='contactUs'>
+      <h1>Contactanos</h1>
       <Form className='formulario'>
         <Form.Label>Nombre</Form.Label>
         <Form.Control type="text" placeholder="Nombre" />
@@ -23,7 +24,7 @@ function Section03() {
         <Form.Control type="text" placeholder="Asunto" />
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label></Form.Label>
+          <Form.Label> </Form.Label>
           <Form.Control as="textarea" rows={3} placeholder='Escriba su mensaje' />
         </Form.Group>
 
