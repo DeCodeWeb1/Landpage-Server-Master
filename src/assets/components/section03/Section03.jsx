@@ -6,9 +6,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+
+
 function Section03() {
   return (
-    <div className='seccion3'>
+    <div className='seccion3' id='contact'>
       <h2 className='contacto'>Contacto</h2>
       <div className='contenedor'>
         <Container>
