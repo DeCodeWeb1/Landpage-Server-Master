@@ -1,31 +1,40 @@
 import React from 'react'
 import '../css/general.css'
-import './Section03.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import './section03.css'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 
 function Section03() {
   return (
-    <div className='seccion3' id='contact'>
-      <h2 className='contacto'>Contacto</h2>
-      <div className='contenedor'>
-        <Container>
-          <Row>
-            <Col className='iconos1'>
-              <FontAwesomeIcon icon={faPhone} className='phone' />
-              <h4>381-5906929</h4>
-            </Col>
-            <Col className='iconos2'>
-              <FontAwesomeIcon icon={faEnvelope} className='mail' />
-              <h4>servermasterssas@gmail.com</h4>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+    <div className='seccion3 mb-4' >
+      <Form>
+        <h2 className='mb-5'>Contanos en que podemos ayudarte</h2>
+        <Form.Group className="mb-3 w-50 mx-auto " controlId="exampleForm.ControlInput1">
+          <Form.Control className='input' type="text" placeholder="Nombre" />
+        </Form.Group>
+
+        <Form.Group className="mb-3 w-50 mx-auto" controlId="exampleForm.ControlInput1">
+          <Form.Control className='input' type="email" placeholder="email@ejemplo.com" />
+        </Form.Group>
+
+        <Form.Group className="mb-3 w-50 mx-auto" controlId="exampleForm.ControlInput1">
+          <Form.Control className='input' type="text" placeholder="Asunto" />
+        </Form.Group>
+
+
+        <Form.Group className="mb-5 mx-auto w-50" controlId="exampleForm.ControlInput1">
+          <Form.Label className='titulos'>Motivo</Form.Label>
+          <Form.Control className='input' as="textarea" rows={4} />
+        </Form.Group>
+
+        <Form.Group controlId="formFile" className="mb-3  w-50 mx-auto">
+          <Form.Control className='input' type="file" />
+        </Form.Group>
+
+        <Button className='enviar mx-auto' variant="primary">Enviar</Button>
+
+      </Form>
     </div>
   )
 }
