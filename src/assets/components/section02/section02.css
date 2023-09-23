@@ -1,10 +1,10 @@
 :root {
-    /* CSS HEX */
-    --silver: #abababff;
-    --eerie-black: #1c2020ff;
-    --charcoal: #2e4053ff;
-    --lapis-lazuli: #3f6085ff;
-    --white: #fefefeff;
+	--color-primario: #1C2020;
+	--color-secundario: #ABABAB;
+	--color-terciario: #2E4053;
+	--color-cuarto: #3F6085;
+	--color-blanco: #FEFEFE;
+	--font-roboto: 'roboto';
 }
 
 
@@ -12,6 +12,7 @@
     min-height: 100vh;
     background-color: sil;
     padding-top: 8rem;
+    font-family: var(--font-roboto);
 
 }
 
@@ -20,10 +21,6 @@
     margin-top: 4rem;
     padding-left: 5rem;
 }
-
-/* p {
-    text-align: justify;
-} */
 
 
 .container-inf {
@@ -38,7 +35,16 @@
 
 .lista p::before {
     content: "\2022";
-    color: blue;
+    color: brown;
     font-size: 18px;
     margin-right: 10px;
+  }
+
+
+  .row {
+    border-color: var(--color-cuarto) !important;
+  }
+
+  h3 {
+    color: brown;
   }
