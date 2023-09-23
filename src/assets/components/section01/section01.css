@@ -4,46 +4,50 @@
 	--color-terciario: #2E4053;
 	--color-cuarto: #3F6085;
 	--color-blanco: #FEFEFE;
-	--font-roboto:roboto;
+	--font-roboto: roboto;
 }
 
- .contenedor-main{
-    height: 100vh;
-} 
-
-.contenedor-principal{
-    height: 100%;
+.contenedor-main {
+	display: flex;
+	justify-content: start;
+	/* Centra horizontalmente */
+	align-items: center;
+	/* Centra verticalmente */
+	height: 100vh;
 	background-image: url(../../img/img-mantenimiento.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 
-.contenedor-texto{
+.contenedor-principal {
 	width: 35%;
+	/* Asegura que el contenido no desborde */
 }
 
-.server{ 
+.contenedor-texto {
+	text-align: center;
+	/* Alinea el texto a la izquierda */
+	padding-left: 20px;
+	/* Ajusta el espacio izquierdo */
+}
+
+.server {
 	color: brown;
 }
 
-
-.titulo-principal{
+.titulo-principal {
 	font-weight: bolder;
-	padding-left: 7.5% !important;
 	color: var(--color-terciario);
 	font-family: var(--font-roboto);
 }
 
-.subtitulo-principal{
+.subtitulo-principal {
 	font-weight: bolder;
-	padding-left: 5% !important;
 	color: var(--color-terciario);
 	font-family: var(--font-roboto);
 }
 
-.text-acerca{
-	padding-left: 20% !important;
+.text-acerca {
 	font-size: larger;
 	color: var(--color-terciario);
 	font-family: var(--font-roboto);
@@ -51,7 +55,45 @@
 
 /* MEDIA  QUERIESS PARA CELULAR */
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 767px) {
+
+	.contenedor-main {
+		background-size: 250%;
+		justify-content: center !important;
+		align-items: center;
+		background-position: left 10% top;
+		/* Mayor zoom en dispositivos móviles */
+	}
+
+	.contenedor-principal {
+		width: 90% !important; /* Ajusta el ancho del contenido en dispositivos móviles */
+		margin: 0 auto; /* Centra el contenido horizontalmente */
+	}
+
+	.contenedor-texto {
+		text-align: center;
+		/* Alinea el texto al centro en dispositivos móviles */
+		padding-left: 0;
+		/* Elimina el espacio izquierdo en dispositivos móviles */
+	}
+
+	.titulo-principal {
+		font-size: xx-large !important;
+	}
+
+	.subtitulo-principal {
+		margin-top: 1.5% !important;
+	}
+
+		.text-acerca {
+			margin-top: 2% !important;
+			font-size: large !important;
+			min-width: 70% !important; /* Ajusta el ancho del texto en dispositivos móviles, puedes cambiar el valor según tus necesidades */
+			margin: 0 auto;
+	}
+}
+
+/* @media only screen and (max-width: 500px) {
 	.contenedor-principal{
 		padding-top: 30%;
 		justify-content: start !important;
@@ -74,3 +116,4 @@
 		font-family: var(--font-roboto);
 	}
 }
+ */
