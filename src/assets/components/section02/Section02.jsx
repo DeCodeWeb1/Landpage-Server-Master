@@ -11,9 +11,9 @@ function Section02() {
   return (
     <div className='seccion2 container' id='aboutUs'>
 
-<div className="row my-4 shadow border">
-        <div className="lista my-auto p-4">
-          <h4 className='mb-3'>SERVICIOS</h4>
+<div className="row my-4 border border-5 border-black">
+        <div className="lista col my-auto p-4">
+          <h4 className='mb-3 text-decoration-underline'>SERVICIOS</h4>
           <p>Neumatica integral.</p>
           <p>Electricidad industrial.</p>
           <p>Mecánica en general.</p>
@@ -24,18 +24,18 @@ function Section02() {
           <p>Montaje de cañerías de aire comprimido, agua, apor.</p>
           <p>Aislacion de cañerías</p>
         </div>
-        <div className="image col-12 col-lg-4 p-0">
+        <div className="image col-12 col-lg-6 p-0">
           <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/mantenimiento-asistencia.jpg" alt="" />
         </div>
       </div>
       
 
-      <div className="row my-4 shadow border">
-        <div className="image col-12 col-lg-4 p-0">
+      <div className="row my-4 border border border-5 border-black">
+        <div className="image col-12 col-lg-6 p-0">
           <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/mantenimiento-edilicio.jpg" alt="" />
         </div>
-        <div className="lista col text-lg-end my-auto p-4">
-          <h4 className='mb-3'>MANTENIMIENTO EDILICIO</h4>
+        <div className="lista col  my-auto p-4">
+          <h4 className='mb-3 text-decoration-underline'>MANTENIMIENTO EDILICIO</h4>
           <p>Sistemas de iluminación y emergencia.</p>
           <p>Sistemas de alarmas y cámaras de seguridad.</p>
           <p>Mantenimiento edilicio (Pintura, Albañileria, Plomeria, Carpinteria, Herreria, Cielorasos).</p>
@@ -44,24 +44,24 @@ function Section02() {
       </div>
 
 
-      <div className="row my-4 shadow border">
-        <div className="lista col-7 my-auto p-4">
-          <h4 className='mb-3'>Division Mecanica Industrial</h4>
+      <div className="row my-4 border border-5 border-black">
+        <div className="lista col my-auto p-4">
+          <h4 className='mb-3 text-decoration-underline'>Division Mecanica Industrial</h4>
           <p>Mantenimiento de compresores de aire.</p>
           <p>Mantenimiento de bombas de aguay fluidos</p>
           <p>Mantenimiento de secadores de aire</p>
         </div>
-        <div className="image col-lg-4 col-12 p-0">
+        <div className="image col-lg-6 col-12 p-0">
           <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/bombas-de-agua.jpg" alt="" />
         </div>
       </div>
 
       <div className="row my-4 shadow border">
-        <div className="image col-lg-4 col-12 p-0">
+        <div className="image col-lg-6 col-12 p-0">
           <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/plc.jpg" alt="" />
         </div>
-        <div className="lista col-7 text-lg-end my-auto p-4">
-          <h4 className='mb-3'>Division Electrónica</h4>
+        <div className="lista col  my-auto p-4">
+          <h4 className='mb-3 text-decoration-underline'>Division Electrónica</h4>
           <p>Programacion de PLC, HMI, SACADA.</p>
           <p>Servomotores, variadores de velocidad.</p>
           <p>Diseño de sistemas de control con planos de paneles.</p>
@@ -74,8 +74,8 @@ function Section02() {
       </div>
 
       <div className="row my-4 shadow border">
-        <div className="lista col-7 p-4">
-          <h4 className='mb-3'>Division Eléctrica</h4>
+        <div className="lista col p-4">
+          <h4 className='mb-3 text-decoration-underline'>Division Eléctrica</h4>
           <p>Mantenimiento de morotes eléctricos.</p>
           <p>Arranques estrella triangulo.</p>
           <p>Tableros de control, comando y fuerza.</p>
@@ -84,7 +84,7 @@ function Section02() {
           <p>Planimetria eléctrica.</p>
           <p>Ejecución de tareas bajo normativas de seguridad.</p>
         </div>
-        <div className="image col-lg-4 col-12 p-0">
+        <div className="image col-lg-6 col-12 p-0">
           <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/division-electrica.jpg" alt="" />
         </div>
       </div>

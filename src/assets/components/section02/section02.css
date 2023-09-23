@@ -37,8 +37,8 @@
 }
 
 .lista p::before {
-    content: "\2022"; /* Código Unicode para un punto (•), puedes reemplazarlo con otros caracteres Unicode o emojis */
-    color: #ff5733; /* Color de la viñeta personalizada */
-    font-size: 18px; /* Tamaño de fuente de la viñeta personalizada */
-    margin-right: 10px; /* Espacio entre la viñeta y el texto del elemento de lista */
+    content: "\2022";
+    color: blue;
+    font-size: 18px;
+    margin-right: 10px;
   }
