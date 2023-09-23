@@ -10,6 +10,30 @@
 
 
 .seccion3 {
-    background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
+    margin: 0 auto;
     width: 800px;
+    /* Añade esquinas redondeadas */
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.titulos {
+    color: rgb(0, 0, 0);
+}
+
+.input {
+    border: none;
+    /* Elimina el borde predeterminado */
+    border-bottom: 2px solid #3f6085ff;
+    /* Añade un borde inferior personalizado */
+    border-radius: 0;
+    /* Elimina cualquier esquina redondeada */
+    padding: 5px;
+
+}
+
+.enviar {
+    align-items: center;
 }
