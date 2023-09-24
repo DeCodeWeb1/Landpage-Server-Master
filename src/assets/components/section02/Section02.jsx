@@ -2,6 +2,12 @@ import React from 'react';
 import './section02.css'
 import '../css/general.css'
 import 'react-alice-carousel/lib/alice-carousel.css';
+import divElectrica from '../../img/division-electrica.jpg' 
+import mentenimiento from '../../img/img-mantenimiento.jpg' 
+import divMecanica from '../../img/bombas-de-agua.jpg' 
+import manteEdilicio from '../../img/mantenimiento-edilicio.jpg' 
+import manteAsistencia from '../../img/mantenimiento-asistencia.jpg' 
+import plc from '../../img/plc.jpg' 
 
 
 
@@ -25,14 +31,14 @@ function Section02() {
           <p>Aislación de cañerías.</p>
         </div>
         <div className="image col-12 col-lg-6 p-0">
-          <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/mantenimiento-asistencia.jpg" alt="" />
+          <img className='img-fluid h-100 object-fit-cover' src={manteAsistencia} alt="" />
         </div>
       </div>
 
 
       <div className="row my-4 border border-5">
         <div className="image col-12 col-lg-6 p-0">
-          <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/mantenimiento-edilicio.jpg" alt="" />
+          <img className='img-fluid h-100 object-fit-cover' src={manteEdilicio} alt="" />
         </div>
         <div className="lista col  my-auto p-4 fs-5">
           <h3 className='mb-3'>MANTENIMIENTO EDILICIO</h3>
@@ -52,13 +58,13 @@ function Section02() {
           <p>Mantenimiento de secadores de aire.</p>
         </div>
         <div className="image col-lg-6 col-12 p-0">
-          <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/bombas-de-agua.jpg" alt="" />
+          <img className='img-fluid h-100 object-fit-cover' src={divMecanica} alt="" />
         </div>
       </div>
 
       <div className="row my-4 border border-5">
         <div className="image col-lg-6 col-12 p-0">
-          <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/plc.jpg" alt="" />
+          <img className='img-fluid h-100 object-fit-cover' src={plc} alt="" />
         </div>
         <div className="lista col  my-auto p-4 fs-5">
           <h3 className='mb-3'>División Electrónica</h3>
@@ -85,7 +91,7 @@ function Section02() {
           <p>Ejecución de tareas bajo normativas de seguridad.</p>
         </div>
         <div className="image col-lg-6 col-12 p-0">
-          <img className='img-fluid h-100 object-fit-cover' src="/src/assets/img/division-electrica.jpg" alt="" />
+          <img className='img-fluid h-100 object-fit-cover' src={divElectrica} alt="" />
         </div>
       </div>
 
