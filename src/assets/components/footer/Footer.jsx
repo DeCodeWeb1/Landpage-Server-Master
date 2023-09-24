@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import logoSM from '../../img/logo transparente.png'
+import logoSM from '../../img/logo-transparente.png'
 
 function Footer() {
   return (
