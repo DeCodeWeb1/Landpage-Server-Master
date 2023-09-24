@@ -15,7 +15,7 @@ function Section02() {
 
 
   return (
-    <div className='seccion2 container' id='aboutUs'>
+    <div className='seccion2 container mb-5' id='aboutUs'>
 
       <div className="row my-4 border border-5">
         <div className="lista col my-auto p-4 fs-5">
@@ -80,7 +80,7 @@ function Section02() {
       </div>
 
       <div className="row my-4 border border-5">
-        <div className="lista col p-4 fs-5">
+        <div className="lista col p-4 my-auto fs-5">
           <h3 className='mb-3 text-decoration-underline'>División Eléctrica</h3>
           <p>Mantenimiento de morotes eléctricos.</p>
           <p>Arranques estrella triangulo.</p>
