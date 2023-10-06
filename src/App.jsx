@@ -12,7 +12,9 @@ function App() {
   
   AOS.init({
     duration: '700',
-    once: true
+    once: true,
+    delay: 500
+    
   } );
 
 
