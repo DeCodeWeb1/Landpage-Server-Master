@@ -11,9 +11,8 @@ import 'aos/dist/aos.css';
 function App() {
   
   AOS.init({
-    duration: '700',
+    duration: '500',
     once: true,
-    delay: 500
     
   } );
 
