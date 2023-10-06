@@ -19,6 +19,7 @@ function Navv() {
                 <NavDropdown.Item href="mailto:'nassahel.elias@gmail.com'">servemastersas@gmail.com</NavDropdown.Item>
                 <NavDropdown.Item href="tel:+5493816990938">Tel 1: 3865-252015</NavDropdown.Item>
                 <NavDropdown.Item href="tel:+5493816990938">Tel 2: 3865-607666</NavDropdown.Item>
+                <NavDropdown.Item href="#contact">Envíanos un mensaje</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className='linc me-3' href="#aboutUs">Nosotros</Nav.Link>
             </Nav>
