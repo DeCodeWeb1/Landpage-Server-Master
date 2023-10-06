@@ -41,13 +41,14 @@
   }
 
 
-  .row {
-    border-color: var(--color-cuarto) !important;
-  }
 
   h3 {
     color: brown;
   }
 p{
   margin-bottom: 0;
+}
+
+hr {
+  margin: 5rem auto;
 }
