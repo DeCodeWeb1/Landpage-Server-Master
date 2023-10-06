@@ -16,7 +16,7 @@ function Section02() {
   return (
     <div className='seccion2 container-fluid col-10 mb-5' id='aboutUs' >
 
-      <div className="row my-4" data-aos="fade-right">
+      <div className="row my-4" data-aos="fade-up">
         <div className="lista col my-auto p-4 fs-5">
           <h3 className='mb-3'>SERVICIOS</h3>
           <p>Neumática integral.</p>
@@ -36,7 +36,7 @@ function Section02() {
 
 <hr className='col-9'/>
 
-      <div className="row my-4" data-aos="fade-left">
+      <div className="row my-4" data-aos="fade-up">
         <div className="image col-12 col-lg-4 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={manteEdilicio} alt="" />
         </div>
@@ -51,7 +51,7 @@ function Section02() {
 
       <hr className='col-9'/>
 
-      <div className="row my-4" data-aos="fade-right">
+      <div className="row my-4" data-aos="fade-up">
         <div className="lista col my-auto p-4 fs-5">
           <h3 className='mb-3'>División Mecánica Industrial</h3>
           <p>Mantenimiento de compresores de aire.</p>
@@ -65,7 +65,7 @@ function Section02() {
 
       <hr className='col-9'/>
 
-      <div className="row my-4" data-aos="fade-left">
+      <div className="row my-4" data-aos="fade-up">
         <div className="image col-lg-4 col-12 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={plc} alt="" />
         </div>
@@ -85,7 +85,7 @@ function Section02() {
       <hr className='col-9'/>
 
 
-      <div className="row my-4" data-aos="fade-right">
+      <div className="row my-4" data-aos="fade-up">
         <div className="lista col p-4 my-auto fs-5">
           <h3 className='mb-3 text-decoration-underline'>División Eléctrica</h3>
           <p>Mantenimiento de morotes eléctricos.</p>
