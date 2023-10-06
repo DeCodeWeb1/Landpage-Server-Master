@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 
 function Section03() {
   return (
-    <div className='seccion3 mb-4' >
+    <div className='seccion3 mb-4' id='contact' >
       <Form>
         <h2 className='mb-5'>Contanos en que podemos ayudarte</h2>
         <Form.Group className="mb-3 w-50 mx-auto " controlId="exampleForm.ControlInput1">
