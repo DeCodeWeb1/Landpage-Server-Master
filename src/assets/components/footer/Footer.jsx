@@ -9,9 +9,9 @@ function Footer() {
     <footer className='footer d-flex align-items-center justify-content-around pt-4'>
         <img src={logoSM} alt="logo server master" className='logo-server' />
         <p className='text-footer'>Todos los derechos reservados</p>
-        <div className='d-flex gap-2'>
+        <div className='d-flex gap-2 col-2'>
           <FontAwesomeIcon icon={faPhone} className='phone' />
-          <p lassName='text-footer mb-0'>381-5906929</p>
+          <p className='text-footer mb-0'>381-5906929</p>
         </div>
     </footer>
   )

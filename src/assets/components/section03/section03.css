@@ -8,47 +8,47 @@
 }
 
  .contactanos{
-    font-size: 10vw;
+    font-size: 6vw;
     color: #2e4053ff;
 } 
-
+/* 
 .h1-left-align {
     text-align: left !important;
-  }
+  } */
 
-.seccion3 {
+/* .seccion3 {
     margin: 0 auto;
     width: 800px;
-    /* Añade esquinas redondeadas */
+    
     padding: 10px;
 
     text-align: center;
 
-}
+} */
 
-.titulos {
+/* .titulos {
     color: rgb(0, 0, 0);
-}
+} */
 
 .input {
     border: none;
-    /* Elimina el borde predeterminado */
+   
     border-bottom: 2px solid #3f6085ff;
-    /* Añade un borde inferior personalizado */
+    
     border-radius: 0;
-    /* Elimina cualquier esquina redondeada */
+   
     padding: 5px;
 
 }
 
-.enviar{
+/* .enviar{
     padding: 10px 1px;
     width: 10%;
     margin-top: 15px;
     border: 2px solid #fff;
     background-color: #3f6085ff;
-}
+} */
 
-.enviar {
+/* .enviar {
     align-items: center;
-}
+} */
