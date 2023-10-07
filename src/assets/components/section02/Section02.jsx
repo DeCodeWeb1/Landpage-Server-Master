@@ -36,13 +36,13 @@ function Section02() {
         </div>
       </div>
 
-      <hr className='col-9' />
+      <hr className='hr col-9' />
 
       <div className="row my-4" data-aos="fade-up">
         <div className="image col-12 col-lg-4 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={manteEdilicio} alt="" />
         </div>
-        <div className="lista col-lg-5 ms-auto my-auto p-4 fs-5">
+        <div className=" lista col-lg-5 ms-auto my-auto p-4 fs-5">
           <h3 className='mb-3 text-center text-lg-start'>MANTENIMIENTO EDILICIO</h3>
           <ul>
             <li>Sistemas de iluminación y emergencia.</li>

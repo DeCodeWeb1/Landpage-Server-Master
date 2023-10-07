@@ -7,7 +7,14 @@
     --white: #fefefeff;
 }
 
+ .contactanos{
+    font-size: 10vw;
+    color: #2e4053ff;
+} 
 
+.h1-left-align {
+    text-align: left !important;
+  }
 
 .seccion3 {
     margin: 0 auto;
@@ -32,6 +39,14 @@
     /* Elimina cualquier esquina redondeada */
     padding: 5px;
 
+}
+
+.enviar{
+    padding: 10px 1px;
+    width: 10%;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    background-color: #3f6085ff;
 }
 
 .enviar {
