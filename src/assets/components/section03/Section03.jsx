@@ -11,29 +11,29 @@ function Section03() {
       <div className='mt-5 mb-5 '>
         <h1 className='contactanos text-start ms-3'>Contáctanos</h1>
       </div>
-      <Form className='col-10 col-lg-4 mx-auto'>
+      <Form className='col-10 col-lg-4 mx-auto' action="https://formsubmit.co/nassahel.elias3@gmail.com" method="POST">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Control className='input' type="text" placeholder="Nombre" />
+          <Form.Control className='input' type="text" placeholder="Nombre" name='name'/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Control className='input' type="email" placeholder="email@ejemplo.com" />
+          <Form.Control className='input' type="email" placeholder="email@ejemplo.com" name='email' />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Control className='input' type="text" placeholder="Asunto" />
+          <Form.Control className='input' type="text" placeholder="Asunto" name='subject' />
         </Form.Group>
 
 
         <Form.Group className="mb-5" controlId="exampleForm.ControlInput1">
-          <Form.Control className='input' as="textarea" rows={4} placeholder='Motivo' />
+          <Form.Control className='input' as="textarea" rows={4} placeholder='Motivo' name='description' />
         </Form.Group>
 
         <Form.Group controlId="formFile" className="mb-3 col-lg-8 mx-auto">
-          <Form.Control className='input' type="file" />
+          <Form.Control className='input' type="file" name='file' />
         </Form.Group>
         <div className='text-center'>
-          <Button style={{ backgroundColor: '#3f6085ff' }} className='enviar px-4 mt-5 text-light border-light ' variant='dark'>Enviar</Button>
+          <Button type='submit' style={{ backgroundColor: '#3f6085ff' }} className='enviar px-4 mt-5 text-light border-light ' variant='dark'>Enviar</Button>
         </div>
 
       </Form>
