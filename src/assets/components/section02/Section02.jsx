@@ -14,11 +14,16 @@ function Section02() {
 
 
   return (
-    <div className='seccion2 container-fluid col-lg-10' id='aboutUs' >
+    <div className='seccion2 container-fluid' id='aboutUs' >
 
-      <div className="row" data-aos="fade-up">
+      <div className="container-fluid" data-aos="fade-right">
+        <h1 className='about mb-5 display-4'>Que es lo que hacemos?</h1>
+      </div>
+
+      <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
+
+        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>SERVICIOS</h3>
         <div className="lista col my-auto p-4 fs-5">
-          <h3 className='mb-3 text-center text-lg-start'>SERVICIOS</h3>
           <ul>
             <li>Neumática integral.</li>
             <li>Electricidad industrial.</li>        <li>Mecánica en general.</li>
@@ -36,14 +41,14 @@ function Section02() {
         </div>
       </div>
 
-      <hr className='hr col-9' />
 
-      <div className="row my-4" data-aos="fade-up">
+
+      <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
+        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>MANTENIMIENTO EDILICIO</h3>
         <div className="image col-12 col-lg-4 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={manteEdilicio} alt="" />
         </div>
         <div className=" lista col-lg-5 ms-auto my-auto p-4 fs-5">
-          <h3 className='mb-3 text-center text-lg-start'>MANTENIMIENTO EDILICIO</h3>
           <ul>
             <li>Sistemas de iluminación y emergencia.</li>
             <li>Sistemas de alarmas y cámaras de seguridad.</li>
@@ -54,11 +59,11 @@ function Section02() {
         </div>
       </div>
 
-      <hr className='col-9' />
 
-      <div className="row my-4" data-aos="fade-up">
+
+      <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
+        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Mecánica Industrial</h3>
         <div className="lista col my-auto p-4 fs-5">
-          <h3 className='mb-3 text-center text-lg-start'>División Mecánica Industrial</h3>
           <ul>
             <li>Mantenimiento de compresores de aire.</li>
             <li>Mantenimiento de bombas de agua y fluidos.</li>
@@ -71,14 +76,14 @@ function Section02() {
         </div>
       </div>
 
-      <hr className='col-9' />
 
-      <div className="row my-4" data-aos="fade-up">
+
+      <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
+        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Electrónica</h3>
         <div className="image col-lg-4 col-12 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={plc} alt="" />
         </div>
         <div className="lista col-lg-5 ms-auto my-auto p-4 fs-5">
-          <h3 className='mb-3 text-center text-lg-start'>División Electrónica</h3>
           <ul>
             <li>Programación de PLC, HMI, SACADA.</li>
             <li>Servomotores, variadores de velocidad.</li>
@@ -93,12 +98,12 @@ function Section02() {
         </div>
       </div>
 
-      <hr className='col-9' />
 
 
-      <div className="row my-4" data-aos="fade-up">
+
+      <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
+        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Eléctrica</h3>
         <div className="lista col p-4 my-auto fs-5">
-          <h3 className='mb-3 text-center text-lg-start'>División Eléctrica</h3>
           <ul>
             <li>Mantenimiento de morotes eléctricos.</li>
             <li>Arranques estrella triangulo.</li>
