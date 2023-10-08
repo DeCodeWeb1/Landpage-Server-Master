@@ -22,7 +22,7 @@ function Section02() {
 
       <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
 
-        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>SERVICIOS</h3>
+        <h3 className='mb-3 h1 titulo text-center text-white py-2' style={{ backgroundColor: 'brown' }}>SERVICIOS</h3>
         <div className="lista col my-auto p-4 fs-5">
           <ul>
             <li>Neumática integral.</li>
@@ -44,7 +44,7 @@ function Section02() {
 
 
       <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
-        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>MANTENIMIENTO EDILICIO</h3>
+        <h3 className='mb-3 h1 titulo text-center text-white py-2' style={{ backgroundColor: 'brown' }}>MANTENIMIENTO EDILICIO</h3>
         <div className="image col-12 col-lg-4 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={manteEdilicio} alt="" />
         </div>
@@ -62,7 +62,7 @@ function Section02() {
 
 
       <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
-        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Mecánica Industrial</h3>
+        <h3 className='mb-3 h1 titulo text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Mecánica Industrial</h3>
         <div className="lista col my-auto p-4 fs-5">
           <ul>
             <li>Mantenimiento de compresores de aire.</li>
@@ -79,7 +79,7 @@ function Section02() {
 
 
       <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
-        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Electrónica</h3>
+        <h3 className='mb-3 h1 titulo text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Electrónica</h3>
         <div className="image col-lg-4 col-12 p-0">
           <img className='img-fluid h-100 object-fit-cover' src={plc} alt="" />
         </div>
@@ -102,7 +102,7 @@ function Section02() {
 
 
       <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
-        <h3 className='mb-3 h1 text-center text-white py-2' style={{ backgroundColor: 'brown' }}>División Eléctrica</h3>
+        <h3 className='mb-3 h1 text-center titulo text-white py-2' style={{ backgroundColor: 'brown' }}>División Eléctrica</h3>
         <div className="lista col p-4 my-auto fs-5">
           <ul>
             <li>Mantenimiento de morotes eléctricos.</li>
