@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 :root {
 	--color-primario: #1C2020;
 	--color-secundario: #ABABAB;
@@ -10,7 +12,6 @@
 
 .seccion2 {
     min-height: 100vh;
-    background-color: sil;
     padding-top: 8rem;
     font-family: var(--font-roboto);
 
@@ -32,16 +33,9 @@
     background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
 }
 
-.container-img img {
+/* .container-img img {
     object-fit: cover;
-}
-
-.lista p::before {
-    content: "\2022";
-    color: brown;
-    font-size: 18px;
-    margin-right: 10px;
-  }
+} */
 
 
 
@@ -54,4 +48,13 @@ p{
 
 hr {
   margin: 5rem auto;
+}
+
+.about {
+    color: #2e4053ff;
+}
+
+
+.titulo {
+  font-family: 'Roboto Condensed', sans-serif;
 }

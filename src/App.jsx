@@ -7,6 +7,7 @@ import Navv from './assets/components/nav/Navv';
 import Footer from './assets/components/footer/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import OurClients from './assets/components/ourClients/OurClients';
 
 function App() {
   
@@ -18,10 +19,11 @@ function App() {
 
 
   return (
-    <div>
+    <div style={{backgroundColor: 'beige'}}>
     <Navv/>
     <Section01/>
     <Section02/>
+    <OurClients/>
     <Section03/>
     <Footer/>
     </div>
