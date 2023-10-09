@@ -22,7 +22,7 @@ function Section02() {
 
       <div className="row col-lg-10 mx-auto" style={{ marginBottom: '5rem' }} data-aos="fade-up">
 
-        <h3 className='mb-3 h1 titulo text-center text-white py-2' style={{ backgroundColor: 'brown' }}>SERVICIOS</h3>
+        <h3 className='mb-3 h1 titulo text-center text-white py-2' style={{ backgroundColor: '#9B2D5B' }}>SERVICIOS</h3>
         <div className="lista col my-auto p-4 fs-5">
           <ul>
             <li data-aos="fade-right">Neumática integral.</li>
