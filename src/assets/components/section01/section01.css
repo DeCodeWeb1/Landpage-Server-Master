@@ -8,42 +8,50 @@
 }
 
 .contenedor-main {
+	position: relative;
 	display: flex;
-	justify-content: start;
-	/* Centra horizontalmente */
+	justify-content: center;
 	align-items: center;
-	/* Centra verticalmente */
 	height: 100vh;
-	background-image: url(../../img/img-mantenimiento.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(233, 233, 233, 0.426) 0%, rgba(165, 165, 165, 0.426) 100%);
+	overflow: hidden;
+}
+
+.imagen-fondo{
+	scale: 1.5;
+	top: 200px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.logo-serve{
+	width: 80%;
 }
 
 .contenedor-principal {
-	width: 35%;
-	/* Asegura que el contenido no desborde */
+	width: 45%;
 }
 
 .contenedor-texto {
 	text-align: center;
-	/* Alinea el texto a la izquierda */
 	padding-left: 20px;
-	/* Ajusta el espacio izquierdo */
 }
 
 .server {
-	color: brown;
+	color: #9B2D5B;
 }
 
 .titulo-principal {
 	font-weight: bolder;
-	color: var(--color-terciario);
+	color: #08213f;
 	font-family: var(--font-roboto);
 }
 
 .subtitulo-principal {
 	font-weight: bolder;
-	color: var(--color-terciario);
+	color: #08213f;
 	font-family: var(--font-roboto);
 }
 
@@ -66,8 +74,10 @@
 	}
 
 	.contenedor-principal {
-		width: 90% !important; /* Ajusta el ancho del contenido en dispositivos móviles */
-		margin: 0 auto; /* Centra el contenido horizontalmente */
+		width: 90% !important;
+		/* Ajusta el ancho del contenido en dispositivos móviles */
+		margin: 0 auto;
+		/* Centra el contenido horizontalmente */
 	}
 
 	.contenedor-texto {
@@ -85,35 +95,11 @@
 		margin-top: 1.5% !important;
 	}
 
-		.text-acerca {
-			margin-top: 2% !important;
-			font-size: large !important;
-			min-width: 70% !important; /* Ajusta el ancho del texto en dispositivos móviles, puedes cambiar el valor según tus necesidades */
-			margin: 0 auto;
+	.text-acerca {
+		margin-top: 2% !important;
+		font-size: large !important;
+		min-width: 70% !important;
+		/* Ajusta el ancho del texto en dispositivos móviles, puedes cambiar el valor según tus necesidades */
+		margin: 0 auto;
 	}
 }
-
-/* @media only screen and (max-width: 500px) {
-	.contenedor-principal{
-		padding-top: 30%;
-		justify-content: start !important;
-		align-items: center !important;
-	}
-	.contenedor-texto{
-		width: 100%;
-	}
-	.titulo-principal{
-		font-weight: bolder;
-		color: var(--color-terciario);
-		font-family: var(--font-roboto);
-
-	}
-	
-	.text-acerca{
-		padding-left: 2% !important;
-		font-size: larger;
-		color: var(--color-terciario);
-		font-family: var(--font-roboto);
-	}
-}
- */

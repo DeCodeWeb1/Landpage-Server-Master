@@ -19,12 +19,14 @@ function App() {
 
 
   return (
-    <div style={{backgroundColor: 'beige'}}>
+    <div>
     <Navv/>
     <Section01/>
+    <div style={{backgroundColor:'#EDEDF3'}}>
     <Section02/>
     <OurClients/>
     <Section03/>
+    </div>
     <Footer/>
     </div>
   )
