@@ -6,20 +6,24 @@ import './ourClients.css'
 
 function OurClients() {
     return (
-<div className='container-fluid' style={{ height: '100vh' }}>
+<div className='container-fluid mt-5' style={{ height: '100vh' }}>
     <div className='row justify-content-center align-items-start' style={{ minHeight: '50%' }}>
-        <div className='col-12 mb-5' style={{fontFamily: 'roboto'}}>
-            <h1 style={{ color: '#2e4053ff' }} className='display-4' data-aos="fade-right">Nuestros Clientes</h1>
+    <div className="container-fluid d-flex align-items-center ms-4 mb-4" >
+        <h5 className='about m-0 text-secondary'>NUESTROS CLIENTES</h5>
+        <div className='line rounded  '></div>
+      </div>
+      <div className="row gap-4">
+         <div className='col-lg-3 m-auto d-flex justify-content-center'>
+            <img src={Santista} alt="" className="img-fluid mx-auto" />
         </div>
-        <div className='col-2 m-auto'>
-            <img src={Santista} alt="" className="img-fluid" />
-        </div>
-        <div className='col-2 m-auto'>
+        <div className='col-lg-3 m-auto'>
             <img src={Papelera} alt="" className="img-fluid" />
         </div>
-        <div className='col-2 m-auto'>
+        <div className='col-lg-3 m-auto'>
             <img src={Budeguer} alt="" className="img-fluid" />
         </div>
+      </div>
+       
     </div>
 </div>
 
