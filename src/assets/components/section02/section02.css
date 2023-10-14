@@ -33,21 +33,12 @@
     background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
 }
 
-/* .container-img img {
-    object-fit: cover;
-} */
-
-
 
   h3 {
     color: brown;
   }
 p{
   margin-bottom: 0;
-}
-
-hr {
-  margin: 5rem auto;
 }
 
 .about {
