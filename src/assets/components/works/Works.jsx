@@ -13,13 +13,13 @@ function OurWorks() {
           <div className='line rounded'></div>
         </div>
         <div className="row justify-content-evenly align-items-center " style={{ minHeight: '70vh' }}>
-          <div className='col-lg-4 d-flex justify-content-center mb-4' style={{height: '50vh'}}>
+          <div className='col-lg-4 d-flex justify-content-center mb-4' style={{height: '50vh'}} data-aos="fade-right">
             <img src={FotoSV1} alt="" className="img-fluid border shadow border-5 border-light w-100 object-fit-cover" />
           </div>
-          <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{height: '50vh'}}>
+          <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{height: '50vh'}} data-aos="fade-right">
             <img src={FotoSV2} alt="" className="img-fluid border shadow border-5 border-light img-fluid w-100 object-fit-cover" />
           </div>
-          <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{height: '50vh'}}>
+          <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{height: '50vh'}} data-aos="fade-right">
             <img src={FotoSV3} alt="" className="img-fluid border shadow border-5 border-light w-100 object-fit-cover" />
           </div>
         </div>

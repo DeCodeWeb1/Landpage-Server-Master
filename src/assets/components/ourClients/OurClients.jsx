@@ -12,14 +12,14 @@ function OurClients() {
           <h5 className='about m-0 text-secondary'>NUESTROS CLIENTES</h5>
           <div className='line rounded'></div>
         </div>
-        <div className="mt-5 row gap-4 clients align-items-center">
-          <div className='col-lg-3 m-auto d-flex justify-content-center'>
+        <div className="mt-5 row gap-4 clients align-items-center" >
+          <div className='col-lg-3 m-auto d-flex justify-content-center' data-aos="fade-up">
             <img src={Santista} alt="" className="img-fluid mx-auto" />
           </div>
-          <div className='col-lg-3 m-auto'>
+          <div className='col-lg-3 m-auto' data-aos="fade-up">
             <img src={Papelera} alt="" className="img-fluid" />
           </div>
-          <div className='col-lg-3 m-auto'>
+          <div className='col-lg-3 m-auto' data-aos="fade-up" >
             <img src={Budeguer} alt="" className="img-fluid" />
           </div>
         </div>
