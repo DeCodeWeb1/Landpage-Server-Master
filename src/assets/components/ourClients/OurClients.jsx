@@ -8,7 +8,7 @@ function OurClients() {
   return (
     <div className='container-fluid mt-5' style={{ height: '100vh' }}>
       <div className='row justify-content-center align-items-start' style={{ minHeight: '50%' }}>
-        <div className="container-fluid d-flex align-items-center ms-4 mb-4" >
+        <div className="container-fluid d-flex align-items-center ps-4 mb-4" >
           <h5 className='about m-0 text-secondary'>NUESTROS CLIENTES</h5>
           <div className='line rounded'></div>
         </div>

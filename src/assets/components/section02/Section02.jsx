@@ -3,7 +3,6 @@ import './section02.css'
 import '../css/general.css'
 import 'react-alice-carousel/lib/alice-carousel.css';
 import divElectrica from '../../img/division-electrica2.jpg'
-import divMecanica from '../../img/bombas-de-agua2.jpg'
 import manteEdilicio from '../../img/mantenimiento-edilicio2.jpg'
 import manteAsistencia from '../../img/mantenimiento-asistencia2.jpg'
 import plc from '../../img/plc2.jpg'
@@ -86,9 +85,6 @@ function Section02() {
               </ul>
 
             </div>
-            {/* <div className="">
-              <img className='img-fluid object-fit-cover' src={divMecanica} alt="" />
-            </div> */}
           </div>
 
           <div className="shadow border p-2">
@@ -131,18 +127,6 @@ function Section02() {
         </div>
 
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   )
 }
