@@ -8,12 +8,13 @@ import Form from 'react-bootstrap/Form';
 function Section03() {
   return (
     <div className=' seccion3 mb-4' id='contact' >
-      <div className='mt-5 mb-5 '>
-        <h1 className='contactanos text-start ms-3'>Contáctanos</h1>
+      <div className='container-fluid d-flex align-items-center mb-4 '>
+        <h5 className='about m-0 text-secondary'>DEJANOS UN MENSAJE</h5>
+        <div className='line rounded  '></div>
       </div>
       <Form className='col-10 col-lg-4 mx-auto' action="https://formsubmit.co/ef976d832fde7d164faf825d353b9f58" method="POST">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Control className='input' type="text" placeholder="Nombre" name='Nombre'/>
+          <Form.Control className='input' type="text" placeholder="Nombre" name='Nombre' />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -36,7 +37,7 @@ function Section03() {
           <Button type='submit' style={{ backgroundColor: '#3f6085ff' }} className='enviar px-4 mt-5 text-light border-light ' variant='dark'>Enviar</Button>
         </div>
 
-        <input type="hidden" name="_next" value="https://servemaster.netlify.app"/>
+        <input type="hidden" name="_next" value="https://servemaster.netlify.app" />
 
       </Form>
     </div>

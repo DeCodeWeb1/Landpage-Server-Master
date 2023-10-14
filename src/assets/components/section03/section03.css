@@ -7,48 +7,19 @@
     --white: #fefefeff;
 }
 
- .contactanos{
+.contactanos {
     font-size: 6vw;
     color: #2e4053ff;
-} 
-/* 
-.h1-left-align {
-    text-align: left !important;
-  } */
+}
 
-/* .seccion3 {
-    margin: 0 auto;
-    width: 800px;
-    
-    padding: 10px;
-
-    text-align: center;
-
-} */
-
-/* .titulos {
-    color: rgb(0, 0, 0);
-} */
 
 .input {
     border: none;
-   
+
     border-bottom: 2px solid #3f6085ff;
-    
+
     border-radius: 0;
-   
+
     padding: 5px;
 
 }
-
-/* .enviar{
-    padding: 10px 1px;
-    width: 10%;
-    margin-top: 15px;
-    border: 2px solid #fff;
-    background-color: #3f6085ff;
-} */
-
-/* .enviar {
-    align-items: center;
-} */
