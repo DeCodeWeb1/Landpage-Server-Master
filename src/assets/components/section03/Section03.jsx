@@ -12,7 +12,7 @@ function Section03() {
         <h5 className='about m-0 text-secondary'>DEJANOS UN MENSAJE</h5>
         <div className='line rounded  '></div>
       </div>
-      <Form className='col-10 col-lg-4 mt-5 pt-5 mx-auto' action="https://formsubmit.co/ef976d832fde7d164faf825d353b9f58" method="POST">
+      <Form className='col-10 col-lg-4 mt-5 pt-5 mx-auto' action="https://formsubmit.co/ef976d832fde7d164faf825d353b9f58" method="POST" data-aos="fade-up">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Control className='input' type="text" placeholder="Nombre" name='Nombre' />
         </Form.Group>

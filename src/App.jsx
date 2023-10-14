@@ -13,9 +13,7 @@ import OurWorks from './assets/components/works/Works';
 function App() {
   
   AOS.init({
-    duration: '500',
-    once: true,
-    
+    duration: '900'   
   } );
 
 
