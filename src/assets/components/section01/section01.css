@@ -8,30 +8,19 @@
 }
 
 .contenedor-main {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	height: 100vh;
+	background-image: url(src/assets/img/img-mantenimiento.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-position-y: top;
+}
+
+ .contenedor-principal {
+	width: 100%;
+	height: 100%;
 	background: rgb(0, 0, 0);
 	background: linear-gradient(90deg, rgba(233, 233, 233, 0.426) 0%, rgba(165, 165, 165, 0.426) 100%);
-	overflow: hidden;
-}
-
-.imagen-fondo{
-	scale: 1.5;
-	top: 200px;
-	width: 100%;
-	position: absolute;
-	z-index: -1;
-}
-
-.logo-serve{
-	width: 80%;
-}
-
-.contenedor-principal {
-	width: 45%;
 }
 
 .contenedor-texto {
@@ -61,45 +50,4 @@
 	font-family: var(--font-roboto);
 }
 
-/* MEDIA  QUERIESS PARA CELULAR */
 
-@media (max-width: 767px) {
-
-	.contenedor-main {
-		background-size: 250%;
-		justify-content: center !important;
-		align-items: center;
-		background-position: left 10% top;
-		/* Mayor zoom en dispositivos móviles */
-	}
-
-	.contenedor-principal {
-		width: 90% !important;
-		/* Ajusta el ancho del contenido en dispositivos móviles */
-		margin: 0 auto;
-		/* Centra el contenido horizontalmente */
-	}
-
-	.contenedor-texto {
-		text-align: center;
-		/* Alinea el texto al centro en dispositivos móviles */
-		padding-left: 0;
-		/* Elimina el espacio izquierdo en dispositivos móviles */
-	}
-
-	.titulo-principal {
-		font-size: xx-large !important;
-	}
-
-	.subtitulo-principal {
-		margin-top: 1.5% !important;
-	}
-
-	.text-acerca {
-		margin-top: 2% !important;
-		font-size: large !important;
-		min-width: 70% !important;
-		/* Ajusta el ancho del texto en dispositivos móviles, puedes cambiar el valor según tus necesidades */
-		margin: 0 auto;
-	}
-}

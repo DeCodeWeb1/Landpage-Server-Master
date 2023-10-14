@@ -10,8 +10,6 @@ import plc from '../../img/plc2.jpg'
 import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
 import { BiChevronsRight, BiCheck } from "react-icons/bi";
 
-BsFillWrenchAdjustableCircleFill
-
 function Section02() {
 
 

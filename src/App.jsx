@@ -8,6 +8,7 @@ import Footer from './assets/components/footer/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import OurClients from './assets/components/ourClients/OurClients';
+import OurWorks from './assets/components/works/Works';
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
     <div style={{backgroundColor:'#EDEDF3'}}>
     <Section02/>
     <OurClients/>
+    <OurWorks/>
     <Section03/>
     </div>
     <Footer/>
