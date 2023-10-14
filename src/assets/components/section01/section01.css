@@ -9,7 +9,7 @@
 
 .contenedor-main {
 	height: 100vh;
-	background-image: url(src/assets/img/img-mantenimiento.jpg);
+	background-image: url(../../img/img-mantenimiento.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
