@@ -6,6 +6,7 @@ import divElectrica from '../../img/division-electrica2.jpg'
 import manteEdilicio from '../../img/mantenimiento-edilicio2.jpg'
 import manteAsistencia from '../../img/mantenimiento-asistencia2.jpg'
 import plc from '../../img/plc2.jpg'
+import comprInd from '../../img/compresores-industriales-lubricacion.jpg'
 import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
 import { BiChevronsRight, BiCheck } from "react-icons/bi";
 
@@ -30,7 +31,6 @@ function Section02() {
               <li><BiChevronsRight color='#3F6085' size={25} /> Neumática integral.</li>
               <li><BiChevronsRight color='#3F6085' size={25} /> Electricidad industrial.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Mecánica en general.</li>
-              <li><BiChevronsRight color='#3F6085' size={25} />Montaje de redes de aire comprimido, agua potable, vapor.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento correctivo y preventivo de equipos industriales.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Montajes y reparaciones en general.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Montaje de instrumentos de medición, cableado y canalización.</li>
@@ -51,7 +51,7 @@ function Section02() {
           </div>
           <div className="mt-5">
             <ul className='list-unstyled ms-3'>
-              <li><BiChevronsRight color='#3F6085' size={25} />Programación de PLC, HMI, SACADA.</li>
+              <li><BiChevronsRight color='#3F6085' size={25} />Programación de PLC, HMI, SCADA.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Servomotores, variadores de velocidad.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Diseño de sistemas de control con planos de paneles.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Planos de proceso e instrumentación (P&ID).</li>
@@ -81,9 +81,10 @@ function Section02() {
               <ul className='list-unstyled ms-3'>
                 <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de compresores de aire.</li>
                 <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de bombas de agua y fluidos.</li>
-                <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de secadores de aire.</li>
               </ul>
-
+            </div>
+            <div className="mb-3 col-11 mx-auto">
+              <img className='img-fluid object-fit-cover' src={comprInd} alt="" />
             </div>
           </div>
 
@@ -111,7 +112,7 @@ function Section02() {
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> DIVISIÓN ELÉCTRICA</h3>
           <div className="my-4">
             <ul className='list-unstyled ms-3'>
-              <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de morotes eléctricos.</li>
+              <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de motores eléctricos.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Arranques estrella triangulo.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Tableros de control, comando y fuerza.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Automatización general de procesos.</li>

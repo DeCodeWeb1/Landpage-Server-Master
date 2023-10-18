@@ -1,6 +1,6 @@
 import React from 'react'
 import Santista from '../../img/Logo-Santista-Versiones-1.png';
-import Papelera from '../../img/logo-papelera02.png';
+import PapeleraTuc from '../../img/papelera_tucuman.png';
 import Budeguer from '../../img/Grupo-Budeguer-Logo-01.png';
 import './ourClients.css'
 
@@ -17,7 +17,7 @@ function OurClients() {
             <img src={Santista} alt="" className="img-fluid mx-auto" />
           </div>
           <div className='col-lg-3 m-auto' data-aos="fade-up">
-            <img src={Papelera} alt="" className="img-fluid" />
+            <img src={PapeleraTuc} alt="" className="img-fluid" />
           </div>
           <div className='col-lg-3 m-auto' data-aos="fade-up" >
             <img src={Budeguer} alt="" className="img-fluid" />
