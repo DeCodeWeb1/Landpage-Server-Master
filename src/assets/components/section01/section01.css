@@ -26,12 +26,12 @@
 }
 
 .server {
-	color: #9B2D5B;
+	color: #08213f;
 }
 
 .titulo-principal {
 	font-weight: bolder;
-	color: #08213f;
+	color: #9B2D5B;
 	font-family: var(--font-roboto);
 }
 
