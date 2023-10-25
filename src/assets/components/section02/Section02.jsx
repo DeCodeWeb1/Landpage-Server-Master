@@ -2,11 +2,11 @@ import React from 'react';
 import './section02.css'
 import '../css/general.css'
 import 'react-alice-carousel/lib/alice-carousel.css';
-import divElectrica from '../../img/division-electrica2.jpg'
+import divElectrica from '../../img/division-electrica.jpg'
 import manteEdilicio from '../../img/mantenimiento-edilicio2.jpg'
 import manteAsistencia from '../../img/mantenimiento-asistencia2.jpg'
 import plc from '../../img/plc2.jpg'
-import comprInd from '../../img/compresores-industriales-lubricacion.jpg'
+import comprInd from '../../img/compresores-industriales-lubricacion-2.png'
 import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
 import { BiChevronsRight, BiCheck } from "react-icons/bi";
 
@@ -122,7 +122,7 @@ function Section02() {
             </ul>
 
           </div>
-          <div className="mb-3 col-11 mx-auto">
+          <div className="mt-5 mb-3 col-11 mx-auto">
             <img className='img-fluid object-fit-cover' src={divElectrica} alt="" />
           </div>
         </div>

@@ -26,16 +26,17 @@
 }
 
 .server {
-	color: #08213f;
+	color: #9B2D5B;
 }
 
 .titulo-principal {
 	font-weight: bolder;
-	color: #9B2D5B;
+	color: #08213f;
 	font-family: var(--font-roboto);
 }
 
 .subtitulo-principal {
+	-webkit-text-stroke: 1px #1C2020;
 	font-weight: bolder;
 	color: #08213f;
 	font-family: var(--font-roboto);
