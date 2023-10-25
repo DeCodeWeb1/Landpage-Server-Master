@@ -7,8 +7,9 @@ import manteEdilicio from '../../img/mantenimiento-edilicio2.jpg'
 import manteAsistencia from '../../img/mantenimiento-asistencia2.jpg'
 import plc from '../../img/plc2.jpg'
 import comprInd from '../../img/compresores-industriales-lubricacion-2.png'
-import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
+import { BsFillWrenchAdjustableCircleFill, BsFillBuildingsFill } from "react-icons/bs";
 import { BiChevronsRight, BiCheck } from "react-icons/bi";
+import { AiFillSetting, AiFillThunderbolt, AiFillTool, AiFillApi } from "react-icons/ai";
 
 function Section02() {
 
@@ -25,7 +26,7 @@ function Section02() {
 
 
         <div className=" col-lg-5 mx-1 shadow border p-2" data-aos="fade-right">
-          <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> SERVICIOS</h3>
+          <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillSetting className='me-2' /> SERVICIOS</h3>
           <div className="col mt-4">
             <ul className='list-unstyled ms-3'>
               <li><BiChevronsRight color='#3F6085' size={25} /> Neumática integral.</li>
@@ -39,15 +40,15 @@ function Section02() {
             </ul>
 
           </div>
-          <div className="col-11 my-3 mx-auto">
-            <img className='img-fluid object-fit-cover' src={manteAsistencia} alt="" />
+          <div className="col-11 my-3 mx-auto border border-3 border-black rounded">
+            <img className='img-fluid object-fit-cover rounded' src={manteAsistencia} alt="" />
           </div>
         </div>
 
         <div className="col-lg-5 shadow border p-2" data-aos="fade-left">
-          <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> DIVISIÓN ELECTRÓNICA</h3>
-          <div className="mx-auto col-11 my-4">
-            <img className='img-fluid object-fit-cover' src={plc} alt="" />
+          <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillApi className='me-2' /> DIVISIÓN ELECTRÓNICA</h3>
+          <div className="mx-auto col-11 my-4 border border-3 border-black rounded">
+            <img className='img-fluid object-fit-cover rounded' src={plc} alt="" />
           </div>
           <div className="mt-5">
             <ul className='list-unstyled ms-3'>
@@ -83,15 +84,15 @@ function Section02() {
                 <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de bombas de agua y fluidos.</li>
               </ul>
             </div>
-            <div className="mb-3 col-11 mx-auto">
-              <img className='img-fluid object-fit-cover' src={comprInd} alt="" />
+            <div className="mb-3 col-11 mx-auto border border-3 border-black rounded">
+              <img className='img-fluid object-fit-cover rounded' src={comprInd} alt="" />
             </div>
           </div>
 
           <div className="shadow border p-2">
-            <h3 className=' h2 titulo ms-3 mt-3' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> MANTENIMIENTO EDILICIO</h3>
-            <div className="my-3 col-11 mx-auto">
-              <img className='img-fluid object-fit-cover' src={manteEdilicio} alt="" />
+            <h3 className=' h2 titulo ms-3 mt-3' style={{ color: '#9B2D5B' }}> <BsFillBuildingsFill className='me-2' /> MANTENIMIENTO EDILICIO</h3>
+            <div className="my-3 col-11 mx-auto border border-3 border-black rounded">
+              <img className='img-fluid object-fit-cover rounded' src={manteEdilicio} alt="" />
             </div>
             <div className="mt-2">
               <ul className='list-unstyled ms-3'>
@@ -109,7 +110,7 @@ function Section02() {
 
 
         <div className="col-lg-5 shadow border p-2" data-aos="fade-left">
-          <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> DIVISIÓN ELÉCTRICA</h3>
+          <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillThunderbolt className='me-2' /> DIVISIÓN ELÉCTRICA</h3>
           <div className="my-4">
             <ul className='list-unstyled ms-3'>
               <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de motores eléctricos.</li>
@@ -122,8 +123,8 @@ function Section02() {
             </ul>
 
           </div>
-          <div className="mt-5 mb-3 col-11 mx-auto">
-            <img className='img-fluid object-fit-cover' src={divElectrica} alt="" />
+          <div className="mt-5 mb-3 col-11 mx-auto border border-3 border-black rounded">
+            <img className='img-fluid object-fit-cover rounded' src={divElectrica} alt="" />
           </div>
         </div>
 
