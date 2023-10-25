@@ -17,8 +17,8 @@ function Navv() {
             <Nav.Link className='linc me-3' href="#home">Inicio</Nav.Link>
             <NavDropdown className='linc me-3' title='Contacto' id="responsive-nav-dropdown">
               <NavDropdown.Item href="mailto:'nassahel.elias@gmail.com'">servemastersas@gmail.com</NavDropdown.Item>
-              <NavDropdown.Item href="tel:+5493816990938">Tel 1: 3865-607676</NavDropdown.Item>
-              <NavDropdown.Item href="tel:+5493816990938">Tel 2: 3865-252015</NavDropdown.Item>
+              <NavDropdown.Item href="tel:+5493865607676">Tel 1: 3865-607676</NavDropdown.Item>
+              <NavDropdown.Item href="tel:+5493865252015">Tel 2: 3865-252015</NavDropdown.Item>
               <NavDropdown.Item href="#contact">Envíanos un mensaje</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className='linc me-3' href="#aboutUs">Nosotros</Nav.Link>
