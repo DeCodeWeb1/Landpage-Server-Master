@@ -42,6 +42,11 @@
 	font-family: var(--font-roboto);
 }
 
+.subtitulo-secundario {
+	text-align: center;
+	align-items: center;
+}
+
 .text-acerca {
 	font-size: larger;
 	color: var(--color-terciario);
