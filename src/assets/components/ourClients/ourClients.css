@@ -1,17 +1,11 @@
-.clients{
-    height: 60vh !important;
+.clients {
+  height: 60vh !important;
 }
 
-.clients img {
-    -webkit-filter: grayscale(100);
-    filter: grayscale(100);
-    transition: 0.3s;
-  }
-  
-  .clients img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    opacity: 1;
-  }
 
-  
+
+.clients img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+}
