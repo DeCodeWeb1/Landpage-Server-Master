@@ -25,10 +25,10 @@ function OurWorks() {
           <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{ height: '50vh' }} data-aos="fade-right">
             <img src={FotoSV4} alt="" className="img-fluid border shadow border-5 border-dark img-fluid w-100 object-fit-cover rounded" />
           </div>
-          <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{ height: '50vh' }} data-aos="fade-right">
+          <div className='col-lg-6 d-flex justify-content-center  mb-4' style={{ height: '50vh' }} data-aos="fade-right">
             <img src={FotoSV5} alt="" className="img-fluid border shadow border-5 border-dark img-fluid w-100 object-fit-cover rounded" />
           </div>
-          <div className='col-lg-4 d-flex justify-content-center  mb-4' style={{ height: '50vh' }} data-aos="fade-right">
+          <div className='col-lg-6 d-flex justify-content-center  mb-4' style={{ height: '50vh' }} data-aos="fade-right">
             <img src={FotoSV6} alt="" className="img-fluid border shadow border-5 border-dark img-fluid w-100 object-fit-cover rounded" />
           </div>
         </div>
