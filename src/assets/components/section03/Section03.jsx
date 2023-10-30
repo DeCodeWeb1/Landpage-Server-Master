@@ -9,7 +9,7 @@ import { NavLink } from 'react-bootstrap';
 
 function Section03() {
   return (
-    <div className=' seccion3 py-5' id='contact' >
+    <div className='container seccion3 py-5' id='contact' >
 
       <div className="row justify-content-around">
         <div className="col-12 col-lg-5">
