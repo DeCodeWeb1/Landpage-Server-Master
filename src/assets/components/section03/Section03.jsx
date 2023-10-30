@@ -51,7 +51,7 @@ function Section03() {
 
 
 
-        <div className="col-12 text-center ps-lg-5 text-lg-start col-lg-5">
+        <div className="col-12 text-center ps-lg-5 text-lg-start col-lg-5" data-aos="fade-up">
           <div className='container-fluid d-flex align-items-center mb-5 '>
             <h5 className='about m-0 text-secondary'>CONTACTANOS</h5>
             <div className='line rounded'></div>
