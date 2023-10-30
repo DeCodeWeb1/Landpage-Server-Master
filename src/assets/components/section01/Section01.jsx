@@ -1,12 +1,11 @@
 import React from 'react'
 import './section01.css'
 import logo from '../../img/logo-transparente.png'
-import fondo from '../../img/img-mantenimiento.jpg'
+
 
 function Section01() {
   return (
     <div className="contenedor-main" id="home">
-      {/* <img className='fondo-serve' src={fondo} alt="logo de serve master" /> */}
       <div className="contenedor-principal d-flex align-items-center">
         <div className="contenedor-texto mx-auto text-center">
           <img className='logo-serve img-fluid col-lg-5' src={logo} alt="logo de serve master" />
