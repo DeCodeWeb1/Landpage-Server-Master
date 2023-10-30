@@ -98,7 +98,7 @@ function Section02() {
               <ul className='list-unstyled ms-3'>
                 <li><BiChevronsRight color='#3F6085' size={25} />Sistemas de iluminación y emergencia.</li>
                 <li><BiChevronsRight color='#3F6085' size={25} />Sistemas de alarmas y cámaras de seguridad.</li>
-                <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento edilicio (Pintura, Albañilería, Plomería,  Carpintería, Herrería, Cielorasos).</li>
+                <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento edilicio (pintura, albañilería, plomería,  carpintería, herrería, cielorrasos).</li>
                 <li><BiChevronsRight color='#3F6085' size={25} />Construcciones en seco (durlock y superboard).</li>
               </ul>
 
