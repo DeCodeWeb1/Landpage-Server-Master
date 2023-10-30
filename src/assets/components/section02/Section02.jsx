@@ -25,7 +25,7 @@ function Section02() {
       <div className="row justify-content-center mb-4 gap-4">
 
 
-        <div className=" col-lg-5 mx-1 shadow border p-2" >
+        <div className=" col-lg-5 mx-1 shadow border p-2" data-aos="fade-up" >
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillSetting className='me-2' /> SERVICIOS</h3>
           <div className="col mt-4">
             <ul className='list-unstyled ms-3'>
@@ -45,7 +45,7 @@ function Section02() {
           </div>
         </div>
 
-        <div className="col-lg-5 shadow border p-2" >
+        <div className="col-lg-5 shadow border p-2" data-aos="fade-up">
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillApi className='me-2' /> DIVISIÓN ELECTRÓNICA</h3>
           <div className="mx-auto col-11 my-4 border border-3 border-black rounded">
             <img className='img-fluid object-fit-cover rounded' src={plc} alt="" />
@@ -76,7 +76,7 @@ function Section02() {
 
         <div className="col-lg-5 d-flex flex-column justify-content-between p-0" >
 
-          <div className="shadow border p-2 mb-auto" >
+          <div className="shadow border p-2 mb-auto" data-aos="fade-up">
             <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> DIVISIÓN MECÁNICA INDUSTRIAL</h3>
             <div className=" my-3">
               <ul className='list-unstyled ms-3'>
@@ -89,7 +89,7 @@ function Section02() {
             </div>
           </div>
 
-          <div className="shadow border p-2">
+          <div className="shadow border p-2" data-aos="fade-up">
             <h3 className=' h2 titulo ms-3 mt-3' style={{ color: '#9B2D5B' }}> <BsFillBuildingsFill className='me-2' /> MANTENIMIENTO EDILICIO</h3>
             <div className="my-3 col-11 mx-auto border border-3 border-black rounded">
               <img className='img-fluid object-fit-cover rounded' src={manteEdilicio} alt="" />
@@ -109,7 +109,7 @@ function Section02() {
 
 
 
-        <div className="col-lg-5 shadow border p-2" >
+        <div className="col-lg-5 shadow border p-2" data-aos="fade-up">
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillThunderbolt className='me-2' /> DIVISIÓN ELÉCTRICA</h3>
           <div className="my-4">
             <ul className='list-unstyled ms-3'>
