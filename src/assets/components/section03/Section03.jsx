@@ -9,10 +9,10 @@ import { NavLink } from 'react-bootstrap';
 
 function Section03() {
   return (
-    <div className='container seccion3 py-5' id='contact' >
+    <section className='container seccion3 py-5' id='contact' >
 
       <div className="row justify-content-around">
-        <div className="col-12 col-lg-5">
+        <article className="col-12 col-lg-5">
           <div className='container-fluid d-flex align-items-center mb-4 '>
             <h5 className='about m-0 text-secondary'>DEJANOS UN MENSAJE</h5>
             <div className='line rounded  '></div>
@@ -46,12 +46,12 @@ function Section03() {
             <input type="hidden" name="_next" value="https://servemaster.netlify.app" />
 
           </Form>
-        </div>
+        </article>
 
 
 
 
-        <div className="col-12 text-center ps-lg-5 text-lg-start col-lg-5" data-aos="fade-up">
+        <article className="col-12 text-center ps-lg-5 text-lg-start col-lg-5" data-aos="fade-up">
           <div className='container-fluid d-flex align-items-center mb-5 '>
             <h5 className='about m-0 text-secondary'>CONTACTANOS</h5>
             <div className='line rounded'></div>
@@ -67,14 +67,14 @@ function Section03() {
             <NavLink href='tel:+5493865252015'>+549 3865-252015</NavLink>
           </div>
           <div className=' mx-auto mt-4'>
-            <h2 style={{ color: '#08213f' }}> <CiMail color='#9B2D5B' size={50}  /> E-MAIL</h2>
+            <h2 style={{ color: '#08213f' }}> <CiMail color='#9B2D5B' size={50} /> E-MAIL</h2>
             <NavLink href="mailto:'servemastersas@gmail.com'">servemastersas@gmail.com</NavLink>
 
           </div>
-        </div>
+        </article>
 
       </div>
-    </div>
+    </section>
   )
 }
 

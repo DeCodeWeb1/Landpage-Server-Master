@@ -15,17 +15,16 @@ function Section02() {
 
 
   return (
-    <div className='seccion2 container-fluid' id='aboutUs' >
+    <section className='seccion2 container-fluid' id='aboutUs' >
 
       <div className="container-fluid d-flex align-items-center mb-4" >
         <h5 className='about m-0 text-secondary'>¿QUÉ ES LO QUE HACEMOS?</h5>
-        <div className='line rounded  '></div>
+        <div className='line rounded'></div>
       </div>
 
       <div className="row justify-content-center mb-4 gap-4">
 
-
-        <div className=" col-lg-5 mx-1 shadow border p-2" data-aos="fade-up" >
+        <article className=" col-lg-5 mx-1 shadow border p-2" data-aos="fade-up" >
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillSetting className='me-2' /> SERVICIOS</h3>
           <div className="col mt-4">
             <ul className='list-unstyled ms-3'>
@@ -38,18 +37,17 @@ function Section02() {
               <li><BiChevronsRight color='#3F6085' size={25} />Montaje de cañerías de aire comprimido, agua, vapor.</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Aislación de cañerías.</li>
             </ul>
-
           </div>
-          <div className="col-11 my-3 mx-auto border border-3 border-black rounded">
-            <img className='img-fluid object-fit-cover rounded' src={manteAsistencia} alt="" />
-          </div>
-        </div>
+          <figure className="col-11 my-3 mx-auto border border-3 border-black rounded">
+            <img className='img-fluid object-fit-cover rounded' src={manteAsistencia} alt="imagen ilustrativa: hombre realizando mantenimiento de maquina hidrulica" />
+          </figure>
+        </article>
 
-        <div className="col-lg-5 shadow border p-2" data-aos="fade-up">
+        <article className="col-lg-5 shadow border p-2" data-aos="fade-up">
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillApi className='me-2' /> DIVISIÓN ELECTRÓNICA</h3>
-          <div className="mx-auto col-11 my-4 border border-3 border-black rounded">
-            <img className='img-fluid object-fit-cover rounded' src={plc} alt="" />
-          </div>
+          <figure className="mx-auto col-11 my-4 border border-3 border-black rounded">
+            <img className='img-fluid object-fit-cover rounded' src={plc} alt="imágen ilustrativa: laptop conectada a una maquina en reparación" />
+          </figure>
           <div className="mt-5">
             <ul className='list-unstyled ms-3'>
               <li><BiChevronsRight color='#3F6085' size={25} />Programación de PLC, HMI, SCADA.</li>
@@ -61,9 +59,8 @@ function Section02() {
               <li><BiChevronsRight color='#3F6085' size={25} />Actualizacion tecnológica de equipos productivos (retrofittubg).</li>
               <li><BiChevronsRight color='#3F6085' size={25} />Reparación de placas electrónicas.</li>
             </ul>
-
           </div>
-        </div>
+        </article>
 
 
       </div>
@@ -76,7 +73,7 @@ function Section02() {
 
         <div className="col-lg-5 d-flex flex-column justify-content-between p-0" >
 
-          <div className="shadow border p-2 mb-auto" data-aos="fade-up">
+          <article className="shadow border p-2 mb-auto" data-aos="fade-up">
             <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <BsFillWrenchAdjustableCircleFill className='me-2' /> DIVISIÓN MECÁNICA INDUSTRIAL</h3>
             <div className=" my-3">
               <ul className='list-unstyled ms-3'>
@@ -84,16 +81,16 @@ function Section02() {
                 <li><BiChevronsRight color='#3F6085' size={25} />Mantenimiento de bombas de agua y fluidos.</li>
               </ul>
             </div>
-            <div className="mb-3 col-11 mx-auto border border-3 border-black rounded">
-              <img className='img-fluid object-fit-cover rounded' src={comprInd} alt="" />
-            </div>
-          </div>
+            <figure className="mb-3 col-11 mx-auto border border-3 border-black rounded">
+              <img className='img-fluid object-fit-cover rounded' src={comprInd} alt="imágen ilustrativa: bomba de agua" />
+            </figure>
+          </article>
 
-          <div className="shadow border p-2" data-aos="fade-up">
+          <article className="shadow border p-2" data-aos="fade-up">
             <h3 className=' h2 titulo ms-3 mt-3' style={{ color: '#9B2D5B' }}> <BsFillBuildingsFill className='me-2' /> MANTENIMIENTO EDILICIO</h3>
-            <div className="my-3 col-11 mx-auto border border-3 border-black rounded">
-              <img className='img-fluid object-fit-cover rounded' src={manteEdilicio} alt="" />
-            </div>
+            <figure className="my-3 col-11 mx-auto border border-3 border-black rounded">
+              <img className='img-fluid object-fit-cover rounded' src={manteEdilicio} alt="imagen ilustrativa: obreros trabajando en construcción de un edificio"/>
+            </figure>
             <div className="mt-2">
               <ul className='list-unstyled ms-3'>
                 <li><BiChevronsRight color='#3F6085' size={25} />Sistemas de iluminación y emergencia.</li>
@@ -103,13 +100,13 @@ function Section02() {
               </ul>
 
             </div>
-          </div>
+          </article>
 
         </div>
 
 
 
-        <div className="col-lg-5 shadow border p-2" data-aos="fade-up">
+        <article className="col-lg-5 shadow border p-2" data-aos="fade-up">
           <h3 className=' h2 titulo ms-3 mt-2' style={{ color: '#9B2D5B' }}> <AiFillThunderbolt className='me-2' /> DIVISIÓN ELÉCTRICA</h3>
           <div className="my-4">
             <ul className='list-unstyled ms-3'>
@@ -123,13 +120,13 @@ function Section02() {
             </ul>
 
           </div>
-          <div className="mt-5 mb-3 col-11 mx-auto border border-3 border-black rounded">
-            <img className='img-fluid object-fit-cover rounded' src={divElectrica} alt="" />
-          </div>
-        </div>
+          <figure className="mt-5 mb-3 col-11 mx-auto border border-3 border-black rounded">
+            <img className='img-fluid object-fit-cover rounded' src={divElectrica} alt="imagen ilustrativa: persona controlando un tablero eléctrico" />
+          </figure>
+        </article>
 
       </div>
-    </div>
+    </section>
   )
 }
 
