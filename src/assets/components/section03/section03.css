@@ -7,9 +7,19 @@
     --white: #fefefeff;
 }
 
+.contactanos {
+    font-size: 6vw;
+    color: #2e4053ff;
+}
 
 
-.seccion3 {
-    background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
-    width: 800px;
+.input {
+    border: none;
+
+    border-bottom: 2px solid #3f6085ff;
+
+    border-radius: 0;
+
+    padding: 5px;
+
 }

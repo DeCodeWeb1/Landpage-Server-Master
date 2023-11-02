@@ -1,0 +1,11 @@
+.clients {
+  height: 60vh !important;
+}
+
+
+
+.clients img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+}

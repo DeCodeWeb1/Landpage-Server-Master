@@ -4,12 +4,12 @@
 	--color-terciario: #2E4053;
 	--color-cuarto: #3F6085;
 	--color-blanco: #FEFEFE;
-	--font-roboto:roboto;
+	--font-roboto: 'roboto';
 }
 
 
-.linc {
-    color: #18272F;
+.linc, .linc .nav-link {
+    color: #2E4053 !important;
     position: relative;
     text-decoration: none;
 }
@@ -18,27 +18,21 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: var(--color-cuarto);
+    height: 6px;
+    background-color: brown;
     bottom: 0;
     left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
+    transform-origin: bottom;
+    transform: scaleY(0);
     transition: transform .3s ease-in-out;
 }
 
 .linc:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+    transform-origin: bottom;
+    transform: scaleY(1);
 }
 
-/* Presentational Styles */
-/* body {
-display: grid;
-font-family: 'Poppins', sans-serif;
-font-size: 27px;
-font-weight: 700;
-height: 100vh;
-place-items: center;
-} */
+
+.linc:hover, .linc .nav-link:hover {
+color: brown !important;
+}

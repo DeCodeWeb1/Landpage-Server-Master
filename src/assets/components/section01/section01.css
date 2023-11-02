@@ -1,64 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 :root {
 	--color-primario: #1C2020;
 	--color-secundario: #ABABAB;
 	--color-terciario: #2E4053;
 	--color-cuarto: #3F6085;
 	--color-blanco: #FEFEFE;
-	--font-roboto:roboto;
+	--font-roboto: roboto;
 }
 
- .contenedor-main{
+
+.contenedor-main {
+    position: relative;
     height: 100vh;
-} 
+    overflow: hidden;
+	width: 100%;
 
-.contenedor-principal{
+}
+
+.contenedor-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-	background-image: url(../../img/img-mantenimiento.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-
+    background-image: url('../../img/img-mantenimiento.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: growBackground 25s ease-in-out;
+    animation-iteration-count: infinite;
+    z-index: -3;
 }
 
-.contenedor-texto{
-	width: 35%;
+@keyframes growBackground {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
 }
 
-.server{ 
-	color: brown;
+.contenedor-principal {
+	width: 100%;
+	height: 100%;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(233, 233, 233, 0.426) 0%, rgba(165, 165, 165, 0.426) 100%);
 }
 
+.server {
+	color: #9B2D5B;
+}
 
-.titulo-principal{
+.titulo-principal {
 	font-weight: bolder;
-	padding-left: 10% !important;
-	color: var(--color-terciario);
+	color: #08213f;
 	font-family: var(--font-roboto);
 }
 
-.text-acerca{
-	padding-left: 20% !important;
+.subtitulo-principal {
+	-webkit-text-stroke: 1px #1C2020;
+	font-weight: bolder;
+	color: #08213f;
+	font-family: var(--font-roboto);
+}
+
+.subtitulo-secundario {
+	text-align: center;
+	align-items: center;
+}
+
+.text-acerca {
 	font-size: larger;
 	color: var(--color-terciario);
 	font-family: var(--font-roboto);
 }
 
-/* MEDIA  QUERIESS PARA CELULAR */
 
-@media only screen and (max-width: 500px) {
-	.contenedor-texto{
-		width: 60%;
-	}
-	.titulo-principal{
-		font-weight: bolder;
-		padding-left: 5% !important;
-		color: var(--color-terciario);
-		font-family: var(--font-roboto);
-	}
-	
-	.text-acerca{
-		padding-left: 5% !important;
-		font-size: larger;
-		color: var(--color-primario);
-		font-family: var(--font-roboto);
-	}
+
+/* estilos de main */
+
+/* main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+main{
+    height: 75vh;
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 3rem 3rem 3rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 33%);
+}
+ */
+/* estilos de los item de main */
+
+/* .imagenDos, .imagenCinco{
+    display: none;
+} */
+
+
+/* estilos de footer */
+/* footer{
+    margin: 0.6rem;
+    color: whitesmoke;
+    text-align: center;
+} */
+
+
+/* MQ de tablet */
+
+/* @media screen and (min-width:600px) {
+
+    header nav ul li:hover{
+        border-bottom: 1px solid whitesmoke;
+        transform: scale(0.95);
+    }
+    main{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .imagenUno, .imagenTres{
+        grid-row: span 1;
+    }
+
+    .imagenUno:hover{
+        transform: scale(0.95);
+        opacity: 50%;
+        transition: 0.2s;
+    }
+
+    .imagenTres:hover{
+        transform: scale(0.95);
+        opacity: 50%;
+        transition: 0.2s;
+    }
+
+    .imagenCuatro{
+        grid-column: span 2;
+        transition: 0.2s;
+    }
+}
+
+.imagenCuatro:hover{
+    transform: scale(0.95);
+    opacity: 50%;
+    transition: 0.2s;
+} */
+/* MQ de desktop */
+
+/* @media screen and (min-width:1024px) {
+    main .imagenDos, .imagenCinco{
+        display: block;
+    }
+
+    main{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 40% 40% 20%;
+
+ */
+        /* animation */
+
+/*         animation-name: ani-nueva;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-delay: 1s;
+    }
+
+    @keyframes ani-nueva {
+        0%{
+            transform: scale(1);
+        }
+
+        15%{
+            transform: scale(1.2);
+        }
+
+        25%{
+            transform: scale(1);
+        }
+
+        50%{
+            transform: scale(1.2);
+        }
+
+        100%{
+            transform: scale(1);
+        }
+    }
+
+    .imagenUno, .imagenTres{
+        grid-row: span 2;
+    }
+
+    .imagenCinco{
+        grid-column: span 3;
+    }
+
+    .imagenCinco:hover{
+        transform: scale(0.95);
+        opacity: 50%;
+        transition: 0.2s;
+    }
+
+    .imagenDos, .imagenCuatro{
+        grid-column: span 1;
+        grid-row: span 1
+    }
+
+    .imagenDos:hover{
+        transform: scale(0.95);
+        opacity: 50%;
+        transition: 0.2s;
+    }
+
+
+}  */

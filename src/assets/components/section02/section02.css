@@ -1,39 +1,60 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
-    /* CSS HEX */
-    --silver: #abababff;
-    --eerie-black: #1c2020ff;
-    --charcoal: #2e4053ff;
-    --lapis-lazuli: #3f6085ff;
-    --white: #fefefeff;
+	--color-primario: #1C2020;
+	--color-secundario: #ABABAB;
+	--color-terciario: #2E4053;
+	--color-cuarto: #3F6085;
+	--color-blanco: #FEFEFE;
+	--font-roboto: 'roboto';
 }
 
 
 .seccion2 {
     min-height: 100vh;
-    background-color: sil ;
-    padding-top: 8rem;
+    padding-top: 2rem;
+    font-family: var(--font-roboto);
 
 }
 
+.hr{
+  color: brown;
+}
 
 .servicios {
     margin-top: 4rem;
     padding-left: 5rem;
 }
 
-/* p {
-    text-align: justify;
-} */
-
 
 .container-inf {
-margin-top: 4rem;
-background: rgb(255,255,255);
-background: linear-gradient(146deg, rgba(255,255,255,1) 24%, rgba(63,96,133,1) 83%);
+    margin-top: 4rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(146deg, rgba(255, 255, 255, 1) 24%, rgba(63, 96, 133, 1) 83%);
 }
 
-.container-img img {
-    object-fit: cover;
+
+  h3 {
+    color: brown;
+  }
+p{
+  margin-bottom: 0;
+}
+
+.about {
+    color: #2e4053ff;
+}
+
+
+.titulo {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.line {
+  background-color: #3F6085;
+  height: 4px;
+  width: 70px;
+  margin-left: 20px; 
+
 }
