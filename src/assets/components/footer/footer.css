@@ -10,18 +10,29 @@
 .footer{
     color: var(--color-blanco);
     background-color: var(--color-terciario);
-    height: 15vh;
+    min-height: 15vh;
 }
 
-/* .logo-server{
-    width: 10%;
-} */
+
 
 .text-footer{
     font-family: var(--font-roboto);
 }
-/* 
-.phone{
-    width: 15%;
-} */
 
+
+.decode{
+    color: #ec73a5;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.tel{
+    text-decoration: none;
+    color: white;
+}
+
+.tel:hover{
+    text-decoration: underline;
+}
