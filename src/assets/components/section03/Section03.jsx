@@ -24,7 +24,7 @@ function Section03() {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Control className='input' type="email" placeholder="email@ejemplo.com" name='Emai' />
+              <Form.Control className='input' type="email" placeholder="email@ejemplo.com" name='Email' />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
